@@ -1,0 +1,330 @@
+@import "vars";
+
+.front-page-popup {
+  background-color: $blue;
+  padding: 24px 8px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  @include mobile {
+    padding: 16px 4px;
+  }
+
+  span {
+    text-align: center;
+  }
+
+  span.title {
+    font-weight: 600;
+    font-size: 2em;
+
+    @include mobile {
+      font-size: 1.4em;
+    }
+  }
+
+  span.date {
+    font-size: 1.8em;
+    margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    @include mobile {
+      font-size: 1.2em;
+    }
+  }
+
+  span.text {
+  }
+}
+
+.front-page-header {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 8em 1em 10em;
+  z-index: -1;
+
+  &.popupActive {
+    padding: 6em 1em 8em;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+    z-index: 1;
+    color: white;
+  }
+
+  h1 {
+    font-size: 4.2em;
+
+    @include tablet {
+      font-size: 3.4em;
+    }
+
+    @include mobile {
+      font-size: 2.8em;
+    }
+  }
+
+  h2 {
+    font-size: 3.4em;
+
+    @include tablet {
+      font-size: 2.8em;
+      margin-top: 8px;
+    }
+
+    @include mobile {
+      font-size: 2.2em;
+      margin-top: 0;
+    }
+  }
+}
+
+.front-page-header-skew {
+  transform: skewY(2deg);
+  transform-origin: 100%;
+  background: white;
+  height: 100px;
+  width: 100%;
+  //margin-bottom: -30px;
+
+  @include tablet {
+    transform: skewY(4deg);
+    height: 80px;
+  }
+
+  @include mobile {
+    transform: skewY(6deg);
+    height: 60px;
+  }
+}
+
+.front-page-content {
+  max-width: 1100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 5%;
+
+  @include mobile {
+    padding: 0 1.6rem;
+  }
+
+  .front-page-welcome {
+    position: relative;
+    top: -30px;
+    margin-bottom: 8rem;
+
+    @include mobile {
+      margin-bottom: 6rem;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.4rem;
+      line-height: 58px;
+      font-weight: 400;
+      margin: 0;
+
+      @include tablet {
+        font-size: 2rem;
+      }
+
+      @include mobile {
+        font-size: 1.6rem;
+      }
+    }
+
+    span {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      display: inline-block;
+      height: 2px;
+      width: 80%;
+      background: rgba(0, 0, 0, 0.16);
+      margin: 16px 0;
+      max-width: 640px;
+    }
+
+    .logo {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      height: auto;
+      width: calc(100% - 16px);
+      max-width: 740px;
+    }
+
+    .welcome-text {
+      display: flex;
+      align-items: center;
+      margin-top: 6rem;
+      padding: 32px;
+      border-radius: 8px;
+      box-shadow: 0 15px 80px -5px rgba(0, 0, 0, 0.25);
+
+      @include tablet {
+        flex-direction: column;
+      }
+
+      @include mobile {
+        flex-direction: column;
+        padding-top: 0;
+      }
+
+      img {
+        height: auto;
+        width: calc(50% - 32px);
+        border-radius: 8px;
+
+        @include tablet {
+          width: 74%;
+        }
+
+        @include mobile {
+          position: relative;
+          width: calc(100% + 64px);
+          border-radius: 8px 8px 0 0;
+        }
+      }
+
+      p {
+        margin: 0 0 0 32px;
+        text-align: center;
+        line-height: 1.5em;
+
+        @include tablet {
+          margin: 32px 32px 0;
+        }
+
+        @include mobile {
+          margin: 32px 0 0 0;
+        }
+      }
+    }
+  }
+
+  .front-page-section {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    margin-bottom: 8rem;
+
+    @include desktop {
+      :first-child {
+        margin-right: 48px;
+      }
+    }
+
+    @include tabletAndMobile {
+      flex-direction: column;
+      align-items: center;
+
+      :first-child {
+        margin-bottom: 64px;
+      }
+    }
+
+    @include mobile {
+      padding: 16px 0;
+    }
+
+    img {
+      width: calc(50% - 64px);
+      height: auto;
+      box-shadow: 0 15px 80px -5px rgba(0, 0, 0, 0.25);
+      border-radius: 4px;
+
+      @include tablet {
+        width: 70%;
+      }
+
+      @include mobile {
+        width: 100%;
+      }
+    }
+
+    .section-content {
+      display: flex;
+      flex-direction: column;
+
+      @include tabletAndMobile {
+        max-width: 620px;
+      }
+
+      h1 {
+        font-size: 2.6em;
+        font-weight: 400;
+        margin: 0;
+
+        @include tabletAndMobile {
+          text-align: center;
+        }
+
+        @include mobile {
+          font-size: 2.2em;
+        }
+      }
+
+      p {
+        white-space: pre-wrap;
+        line-height: 1.5em;
+        margin: 32px 0;
+
+        @include tabletAndMobile {
+          text-align: center;
+        }
+      }
+
+      .links {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        @include tabletAndMobile {
+          justify-content: center;
+        }
+
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          background-color: $blue;
+          color: white;
+          font-weight: 600;
+          padding: 8px 16px;
+          margin: 0 8px 16px;
+          border-radius: 4px;
+          white-space: nowrap;
+          font-size: 0.9em;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+            0 1px 2px rgba(0, 0, 0, 0.24);
+          transition: all 200ms linear;
+
+          &:hover {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+              0 6px 6px rgba(0, 0, 0, 0.23);
+          }
+        }
+      }
+    }
+  }
+}

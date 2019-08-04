@@ -1,0 +1,31 @@
+/*
+Theme Name: KJG Muggensturm Theme
+Author: Marius Friess (KJG Muggensturm)
+Description: Custom Theme generated for kjgmuggensturm.de
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: kjg, muggensturm
+*/
+
+body {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  background: white;
+}
+
+/* Normalize.css Version 8.0.1 */
+@import "normalize";
+
+/* Header */
+@import "scss/header";
+
+/* Header Hamburger Menu */
+@import "scss/hamburger";
+
+/* Custom Front Page */
+@import "scss/front-page";
+
+/* Footer */
+@import "scss/footer";
