@@ -73,6 +73,56 @@ get_header();
     </div>
     <img src="<?php echo wp_get_attachment_url(get_theme_mod('secondSectionPicSetting'))?>" alt="section picture">
   </div>
+
+  <div class="posts-wrapper">
+    <h1 class="title">KjG News</h1>
+    <div class="posts-content-wrapper">
+      <?php 
+        $args = array(
+          'post_type' => 'post',
+          'post_status' => 'publish',
+          'posts_per_page'=> 3,
+          'order'=>'DESC',
+          'orderby'=>'ID',
+          );
+        $the_query = new WP_Query( $args );
+
+        while ($the_query -> have_posts()) : $the_query -> the_post();
+      ?>
+      <div class="post">
+          <h1><?php the_title(); ?></h1>
+          <span class="divider"></span>
+          <?php the_excerpt(); ?>
+          <div class="post-footer">
+          <a href="<?php the_permalink() ?>">Weiter lesen</a>
+            <span><?php echo get_the_date(); ?></span>
+          </div>
+      </div>
+      <?php 
+        endwhile;
+        wp_reset_postdata();
+      ?>
+    </div>
+    <a class="show-more" href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">Weitere KjG News</a>
+  </div>
+
+  <div class="gruppenleiter-wrapper">
+    <h1 class="title">KjG Gruppenleiter</h1>
+    <div class="content-wrapper">
+        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/NinaStroehm.jpg" alt="gruppenleiter portrait"><span>Nina</span></div>
+        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/KjgLogoCropped.jpg" alt="gruppenleiter portrait"><span>Noah</span></div>
+        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/RafaellaSchiano.jpg" alt="gruppenleiter portrait"><span>Rafaella</span></div>
+        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/FerdinandFeurer.jpg" alt="gruppenleiter portrait"><span>Ferdi</span></div>
+        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/KimGastl.jpg" alt="gruppenleiter portrait"><span>Kim</span></div>
+        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/KjgLogoCropped.jpg" alt="gruppenleiter portrait"><span>Justin</span></div>
+        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/MichelleBraun.jpg" alt="gruppenleiter portrait"><span>Michelle</span></div>
+        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/FabioRahner.png" alt="gruppenleiter portrait"><span>Fabio</span></div>
+        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/NadineMoser.jpg" alt="gruppenleiter portrait"><span>Nadine</span></div>
+        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/NicolasSpaeth.jpg" alt="gruppenleiter portrait"><span>Nicolas</span></div>
+        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/LeaWeilerTatjanaVocke.jpg" alt="gruppenleiter portrait"><span>Lea & Tatjana</span></div>
+        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/RobinKnapp.png" alt="gruppenleiter portrait"><span>Robin</span></div>
+    </div>
+  </div>
 </div>
 <?php /*
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post();  

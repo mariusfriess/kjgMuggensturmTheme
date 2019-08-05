@@ -65,7 +65,7 @@ header {
 
           &.current-menu-item,
           &.current-menu-ancestor {
-            > a {
+            >a {
               color: #1394bf !important;
             }
           }
@@ -101,6 +101,7 @@ header {
                 font-weight: 600;
                 margin: 0;
                 transition: all 140ms linear;
+                white-space: nowrap;
 
                 &:hover {
                   background-color: rgba(0, 0, 0, 0.08);
@@ -182,5 +183,23 @@ header {
 
   @include tablet {
     padding: 0 24px;
+  }
+}
+
+.page-title {
+  h1 {
+    text-align: center;
+    font-weight: 400;
+    margin: 3rem 0 2rem;
+  }
+
+  .seperator {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.16);
+    width: 40%;
   }
 }

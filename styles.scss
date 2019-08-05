@@ -15,6 +15,15 @@ body {
   background: white;
 }
 
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.aligncenter {
+  margin: 0 auto;
+}
+
 /* Normalize.css Version 8.0.1 */
 @import "normalize";
 
@@ -29,3 +38,12 @@ body {
 
 /* Footer */
 @import "scss/footer";
+
+/* Home.php Template */
+@import "scss/home";
+
+/* Page.php Template */
+@import "scss/page-template";
+
+/* Single.php template */
+@import "scss/single";

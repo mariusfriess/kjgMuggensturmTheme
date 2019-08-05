@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-nothing to show
+under development
 <?php
 get_footer();
 ?>

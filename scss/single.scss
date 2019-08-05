@@ -1,0 +1,37 @@
+@import 'vars';
+
+.single-template {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 800px;
+  width: calc(100% - 6rem);
+  padding: 0 3rem 6rem;
+  line-height: 1.8em;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.92);
+
+  .post-info {
+    display: block;
+    text-align: center;
+    font-size: .9em;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    margin: 4px 0 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: $blue;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @include mobile {
+    padding: 0 24px 6rem;
+    width: calc(100% - 48px);
+  }
+}

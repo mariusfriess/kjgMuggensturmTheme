@@ -1,4 +1,4 @@
-(function($) {
+(function ($) {
   let isTabletOrMobile = false;
 
   jQuery(document).ready(() => {
@@ -10,6 +10,9 @@
 
       // nav not showing after opened on mobile and then window resized
       if (!isTabletOrMobile) $("nav").css("display", "block");
+      else {
+        $("nav").slideUp(0);
+      }
       //else $("nav").css("display", "none");
     });
 
@@ -40,6 +43,7 @@
 
     $("#mobileNavBtn").click(() => {
       if (!isTabletOrMobile) return;
+      $(".menu-item-has-children").removeClass('menuOpened')
       $(".sub-menu").slideUp();
       $("#mobileNavBtn").toggleClass("is-active");
       $("nav")
@@ -47,19 +51,25 @@
         .slideToggle();
     });
 
-    $(".menu-item-has-children").click(e => {
+    $(".menu-item-has-children").click(function (e) {
       if (!isTabletOrMobile) return;
       if (
         $(e.target)
-          .parent()
-          .hasClass("sub-menu") ||
+        .parent()
+        .hasClass("sub-menu") ||
         $(e.target)
-          .parent()
-          .parent()
-          .hasClass("sub-menu")
+        .parent()
+        .parent()
+        .hasClass("sub-menu")
       )
         return;
-      e.preventDefault();
+      if (!$(this).hasClass('menuOpened')) {
+        e.preventDefault();
+        $(this).addClass('menuOpened')
+        $(".menu-item-has-children").not(this)
+          .find(".sub-menu").slideUp();
+        $(".menu-item-has-children").not(this).removeClass('menuOpened')
+      }
 
       $(e.target)
         .parent()
