@@ -20,7 +20,7 @@ if ( ! function_exists( 'kjgmuggensturm_setup' ) ) :
 
     add_filter( 'img_caption_shortcode_width', '__return_false' );
 
-    //add_theme_support( 'title-tag' ); 
+    add_theme_support( 'title-tag' ); 
 
     register_nav_menu('header-menu',__( 'Header Menu' ));
 
