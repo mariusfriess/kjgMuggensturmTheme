@@ -27,7 +27,7 @@
   <?php if(!is_front_page()){
     ?>
     <div class="page-title">
-      <h1><?php echo wp_title("")?></h1>
+      <h1><?php echo the_title("")?></h1>
       <span class="seperator"></span>
     </div>
     <?php
