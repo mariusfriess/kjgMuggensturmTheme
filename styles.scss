@@ -24,6 +24,24 @@ button {
   margin: 0 auto;
 }
 
+/* Important custom css */
+.tribe-events-page-title {
+  display: none;
+}
+
+.pa-gallery-player-widget iframe {
+  position: unset !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  height: 100% !important;
+  min-height: 100% !important;
+  max-height: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  border: 0px !important;
+}
+
 /* Normalize.css Version 8.0.1 */
 @import "normalize";
 
@@ -47,3 +65,6 @@ button {
 
 /* Single.php template */
 @import "scss/single";
+
+/* Archive Template */
+@import "scss/archive-template";

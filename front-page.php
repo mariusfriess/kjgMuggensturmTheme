@@ -6,7 +6,7 @@ get_header();
   if(get_theme_mod('popup_enable_setting') == 1){
     echo "<div class='front-page-popup'><span class='title'>" . get_theme_mod('popup_dateTitle_setting') . "</span><span class='date'>Nur noch ";
     $date = strtotime(get_theme_mod('popup_date_setting'));
-    $datediff = round(($date - time()) / (60 * 60 * 24));
+    $datediff = ceil(($date - time()) / (60 * 60 * 24));
     echo $datediff;
 
     if($datediff == 1) {

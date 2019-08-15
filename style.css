@@ -20,6 +20,22 @@ button {
 .aligncenter {
   margin: 0 auto; }
 
+/* Important custom css */
+.tribe-events-page-title {
+  display: none; }
+
+.pa-gallery-player-widget iframe {
+  position: unset !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  height: 100% !important;
+  min-height: 100% !important;
+  max-height: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  border: 0px !important; }
+
 /* Normalize.css Version 8.0.1 */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -892,20 +908,122 @@ footer .footer-bottom {
   line-height: 1.8em;
   margin: 0;
   color: rgba(0, 0, 0, 0.92); }
-  .single-template .post-info {
+  .single-template .the-post img {
+    max-width: calc(100% - 6rem);
+    height: auto;
+    display: block; }
+    @media (max-width: 519px) {
+      .single-template .the-post img {
+        max-width: calc(100%); } }
+  .single-template .the-post .post-info {
     display: block;
     text-align: center;
-    font-size: .9em;
+    font-size: 1em;
     color: rgba(0, 0, 0, 0.6);
     font-weight: 600;
-    margin: 4px 0 2rem; }
-  .single-template a {
+    margin: 8px 0 2rem; }
+  .single-template .the-post a {
     text-decoration: none;
     color: #1394bf;
     font-weight: 600; }
-    .single-template a:hover {
+    .single-template .the-post a:hover {
       text-decoration: underline; }
   @media (max-width: 519px) {
-    .single-template {
+    .single-template .the-post {
       padding: 0 24px 6rem;
       width: calc(100% - 48px); } }
+
+/* Archive Template */
+.archive-template p {
+  text-align: center;
+  margin-bottom: 3rem; }
+
+.archive-template .wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.archive-template .boxWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 3rem; }
+  .archive-template .boxWrapper:last-child {
+    margin-bottom: 0; }
+  @media (min-width: 520px) and (max-width: 1024px) {
+    .archive-template .boxWrapper {
+      grid-template-columns: 1fr 1fr;
+      margin: 0 0 3rem; } }
+  @media (max-width: 519px) {
+    .archive-template .boxWrapper {
+      grid-template-columns: 1fr; } }
+
+.archive-template .box {
+  display: inline-block;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 200px;
+  width: calc(300px - 16px);
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -webkit-tap-highlight-color: transparent;
+  margin: 8px;
+  text-decoration: none; }
+  @media (min-width: 520px) and (max-width: 1024px) {
+    .archive-template .box {
+      width: calc(100% - 16px); } }
+  @media (max-width: 519px) {
+    .archive-template .box {
+      width: calc(100% - 16px);
+      height: 170px; } }
+  .archive-template .box:hover {
+    text-decoration: none !important; }
+  .archive-template .box:visited {
+    color: unset !important; }
+  .archive-template .box:hover .bg {
+    transform: scale(1.1); }
+  .archive-template .box .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform .24s ease-in-out; }
+  .archive-template .box .title-wrapper {
+    backdrop-filter: blur(12px);
+    padding: 8px 16px;
+    z-index: 1;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    flex-direction: column; }
+    @media (max-width: 519px) {
+      .archive-template .box .title-wrapper {
+        padding: 8px; } }
+    .archive-template .box .title-wrapper span.title {
+      font-family: sans-serif;
+      color: white;
+      font-weight: bold;
+      font-size: 1.6em;
+      z-index: 1; }
+      @media (max-width: 519px) {
+        .archive-template .box .title-wrapper span.title {
+          font-size: 1em;
+          text-align: center;
+          line-height: 1.1em;
+          margin-bottom: 4px; } }
+    .archive-template .box .title-wrapper span.subtitle {
+      font-family: sans-serif;
+      color: white;
+      font-weight: bold;
+      font-size: 1em;
+      line-height: 1em;
+      z-index: 1; }
+      @media (max-width: 519px) {
+        .archive-template .box .title-wrapper span.subtitle {
+          font-weight: normal;
+          text-align: center; } }

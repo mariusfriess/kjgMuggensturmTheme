@@ -32,7 +32,6 @@
     }*/
 
     $("header").click(e => {
-      console.log(e);
       if ($(e.target).hasClass("site-header"))
         window.scrollTo({
           top: 0,
