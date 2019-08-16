@@ -1027,3 +1027,157 @@ footer .footer-bottom {
         .archive-template .box .title-wrapper span.subtitle {
           font-weight: normal;
           text-align: center; } }
+
+/* Ferienlager Template */
+.ferienlager-wrapper .header-wrapper {
+  background-image: url("./assets/images/LagerpageBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 64px 16px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  @media (max-width: 519px) {
+    .ferienlager-wrapper .header-wrapper {
+      background-image: url("./assets/images/LagerpageBackgroundMobile.jpg"); } }
+  .ferienlager-wrapper .header-wrapper .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.84);
+    padding: 8px 32px;
+    border-radius: 8px; }
+    @media (max-width: 1024px) {
+      .ferienlager-wrapper .header-wrapper .header {
+        flex-direction: column;
+        padding: 32px 16px; } }
+    .ferienlager-wrapper .header-wrapper .header .site-logo svg {
+      height: 100px;
+      width: auto; }
+      @media (max-width: 1024px) {
+        .ferienlager-wrapper .header-wrapper .header .site-logo svg {
+          height: 60px; } }
+    .ferienlager-wrapper .header-wrapper .header .divider {
+      display: block;
+      height: 100px;
+      width: 3px;
+      border-radius: 8px;
+      background: #00adbb;
+      margin: 8px 32px 8px 26px; }
+      @media (max-width: 1024px) {
+        .ferienlager-wrapper .header-wrapper .header .divider {
+          height: 3px;
+          width: 220px;
+          margin: 16px 0 20px; } }
+    .ferienlager-wrapper .header-wrapper .header .title {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: -2px; }
+      .ferienlager-wrapper .header-wrapper .header .title span {
+        font-size: 36px;
+        line-height: 1em;
+        color: #00adbb;
+        font-weight: bold; }
+        @media (max-width: 1024px) {
+          .ferienlager-wrapper .header-wrapper .header .title span {
+            font-size: 26px;
+            line-height: 1.1em;
+            text-align: center; } }
+
+.ferienlager-wrapper .page-wrapper {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: flex-start;
+  max-width: 1020px;
+  margin: 4rem 1rem; }
+  @media (max-width: 1024px) {
+    .ferienlager-wrapper .page-wrapper {
+      flex-direction: column;
+      width: calc(100% - 64px);
+      margin: 2rem 32px;
+      left: 0;
+      transform: none; } }
+  @media (min-width: 520px) and (max-width: 1024px) {
+    .ferienlager-wrapper .page-wrapper {
+      margin: 2rem 4rem;
+      width: calc(100% - 8rem); } }
+  .ferienlager-wrapper .page-wrapper .nav {
+    position: sticky;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    background: #00adbb;
+    border-radius: 6px;
+    padding: 8px;
+    margin-top: 1.4rem; }
+    @media (max-width: 1024px) {
+      .ferienlager-wrapper .page-wrapper .nav {
+        position: relative;
+        top: 0;
+        width: calc(100% - 48px);
+        margin: 1rem auto;
+        max-width: 400px; } }
+    .ferienlager-wrapper .page-wrapper .nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bolder;
+      padding: 12px 16px; }
+  .ferienlager-wrapper .page-wrapper .content {
+    margin: 0 4rem; }
+    @media (max-width: 1024px) {
+      .ferienlager-wrapper .page-wrapper .content {
+        margin: 0; } }
+    .ferienlager-wrapper .page-wrapper .content .box {
+      padding: 2rem 0; }
+      .ferienlager-wrapper .page-wrapper .content .box h3 {
+        position: relative;
+        padding: 0 0 0 14px;
+        margin: 0;
+        font-size: 1em;
+        color: rgba(0, 0, 0, 0.76); }
+        .ferienlager-wrapper .page-wrapper .content .box h3:before {
+          position: absolute;
+          top: 3px;
+          left: 0;
+          content: "";
+          display: block;
+          height: 8px;
+          width: 2px;
+          background-color: #444;
+          transform: rotate(-45deg);
+          transform-origin: 100% 0; }
+        .ferienlager-wrapper .page-wrapper .content .box h3:after {
+          position: absolute;
+          bottom: 4px;
+          left: 0;
+          content: "";
+          display: block;
+          height: 8px;
+          width: 2px;
+          background-color: #444;
+          transform: rotate(45deg);
+          transform-origin: 100% 100%; }
+      .ferienlager-wrapper .page-wrapper .content .box h1 {
+        margin: 0;
+        letter-spacing: 1px;
+        font-size: 3.2em;
+        line-height: 1.3em; }
+        @media (max-width: 519px) {
+          .ferienlager-wrapper .page-wrapper .content .box h1 {
+            font-size: 2.2em; } }
+      .ferienlager-wrapper .page-wrapper .content .box p {
+        line-height: 1.5em; }
+        .ferienlager-wrapper .page-wrapper .content .box p a {
+          text-decoration: none;
+          color: #00adbb;
+          font-weight: bold; }
+      .ferienlager-wrapper .page-wrapper .content .box ul {
+        line-height: 1.5em; }
+      .ferienlager-wrapper .page-wrapper .content .box img {
+        height: 200px;
+        width: auto;
+        margin-right: 8px; }

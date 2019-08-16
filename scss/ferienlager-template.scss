@@ -1,0 +1,202 @@
+@import 'vars';
+
+.ferienlager-wrapper {
+  .header-wrapper {
+    background-image: url("./assets/images/LagerpageBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 64px 16px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+    @include mobile {
+      background-image: url("./assets/images/LagerpageBackgroundMobile.jpg");
+    }
+
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.84);
+      padding: 8px 32px;
+      border-radius: 8px;
+
+      @include tabletAndMobile {
+        flex-direction: column;
+        padding: 32px 16px;
+      }
+
+      .site-logo svg {
+        height: 100px;
+        width: auto;
+
+        @include tabletAndMobile {
+          height: 60px;
+        }
+      }
+
+      .divider {
+        display: block;
+        height: 100px;
+        width: 3px;
+        border-radius: 8px;
+        background: #00adbb;
+        margin: 8px 32px 8px 26px;
+
+        @include tabletAndMobile {
+          height: 3px;
+          width: 220px;
+          margin: 16px 0 20px;
+        }
+      }
+
+      .title {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -2px;
+
+        span {
+          font-size: 36px;
+          line-height: 1em;
+          color: #00adbb;
+          font-weight: bold;
+
+          @include tabletAndMobile {
+            font-size: 26px;
+            line-height: 1.1em;
+            text-align: center
+          }
+        }
+      }
+    }
+  }
+
+  .page-wrapper {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: flex-start;
+    max-width: 1020px;
+    margin: 4rem 1rem;
+
+    @include tabletAndMobile {
+      flex-direction: column;
+      width: calc(100% - 64px);
+      margin: 2rem 32px;
+      left: 0;
+      transform: none;
+    }
+
+    @include tablet {
+      margin: 2rem 4rem;
+      width: calc(100% - 8rem);
+    }
+
+    .nav {
+      position: sticky;
+      top: 4rem;
+      display: flex;
+      flex-direction: column;
+      min-width: 160px;
+      background: #00adbb;
+      border-radius: 6px;
+      padding: 8px;
+      margin-top: 1.4rem;
+
+      @include tabletAndMobile {
+        position: relative;
+        top: 0;
+        width: calc(100% - 48px);
+        margin: 1rem auto;
+        max-width: 400px;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        padding: 12px 16px;
+      }
+    }
+
+    .content {
+      margin: 0 4rem;
+
+      @include tabletAndMobile {
+        margin: 0;
+      }
+
+      .box {
+        padding: 2rem 0;
+
+        h3 {
+          position: relative;
+          padding: 0 0 0 14px;
+          margin: 0;
+          font-size: 1em;
+          color: rgba(0, 0, 0, 0.76);
+
+          &:before {
+            position: absolute;
+            top: 3px;
+            left: 0;
+            content: "";
+            display: block;
+            height: 8px;
+            width: 2px;
+            background-color: #444;
+            transform: rotate(-45deg);
+            transform-origin: 100% 0;
+          }
+
+          &:after {
+            position: absolute;
+            bottom: 4px;
+            left: 0;
+            content: "";
+            display: block;
+            height: 8px;
+            width: 2px;
+            background-color: #444;
+            transform: rotate(45deg);
+            transform-origin: 100% 100%;
+          }
+        }
+
+        h1 {
+          margin: 0;
+          letter-spacing: 1px;
+          font-size: 3.2em;
+          line-height: 1.3em;
+
+          @include mobile {
+            font-size: 2.2em;
+          }
+        }
+
+        p {
+          line-height: 1.5em;
+
+          a {
+            text-decoration: none;
+            color: #00adbb;
+            font-weight: bold;
+          }
+        }
+
+        ul {
+          line-height: 1.5em;
+        }
+
+        img {
+          height: 200px;
+          width: auto;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}
