@@ -3,7 +3,7 @@
 get_header();
 ?>
 <div class="archive-template page-template-content">
-  <p>Willkommen in unserem Archiv. Hier finden Sie Bilder zahlreicher KjG-Aktionen der vergangenen Jahre. Gehen Sie sicher, dass Sie mit ihrem W-Lan verbunden sind, da die vielen Bilder sonst ihr Datenvolumen verbrauchen könnten.</p>
+  <p>Willkommen in unserem Archiv. Hier finden Sie Bilder zahlreicher KjG-Aktionen der vergangenen Jahre. Diese Seite ist im Moment noch in Bearbeitung. Bilder weiterer Aktionen werden demnächst folgen.</p>
   <div class="wrapper">
     <div class="boxWrapper">
       <a class="box" href="http://www.kjgmuggensturm.de/archiv/ferienlager-2012/">
