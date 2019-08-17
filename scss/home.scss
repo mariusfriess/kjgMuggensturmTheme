@@ -8,7 +8,7 @@
 
   @include mobile {
     flex-direction: column;
-    margin: 3rem 1rem 3rem;
+    margin: 3rem 0 3rem;
   }
 
   @media (max-width: 720px) {
@@ -36,7 +36,8 @@
     }
 
     @include mobile {
-      width: 100%;
+      margin: 0 1rem 3rem;
+      width: calc(100% - 2rem);
     }
 
     h1 {

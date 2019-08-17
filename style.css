@@ -794,6 +794,11 @@ footer .footer-bottom {
   footer .footer-bottom .copyright {
     font-weight: 600;
     color: white; }
+  footer .footer-bottom .fehler {
+    margin-top: 24px;
+    color: white;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.76); }
 
 /* Home.php Template */
 .home-template {
@@ -804,7 +809,7 @@ footer .footer-bottom {
   @media (max-width: 519px) {
     .home-template {
       flex-direction: column;
-      margin: 3rem 1rem 3rem; } }
+      margin: 3rem 0 3rem; } }
   @media (max-width: 720px) {
     .home-template {
       grid-template-columns: 1fr; } }
@@ -827,7 +832,8 @@ footer .footer-bottom {
         min-width: 300px; } }
     @media (max-width: 519px) {
       .home-template .post {
-        width: 100%; } }
+        margin: 0 1rem 3rem;
+        width: calc(100% - 2rem); } }
     .home-template .post h1 {
       font-size: 1.8em;
       margin: 24px 24px 4px;

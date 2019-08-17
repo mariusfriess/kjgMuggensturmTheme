@@ -82,8 +82,8 @@
           <p>
             Unter diesem Motto geht es für uns am 26. August in unser alljährliches Ferienlager.
             Unsere Vorbereitungen sind schon in vollem Gange und wir können es kaum noch erwarten! 
-            <br> Ihr Kind erwartet 10 Tage voller Spaß und Unterhaltung.
-            Auch für unser KjG Team, bestehend aus den zwölf Gruppenleitern, den Heflern und der Küche ist das Ferienlager das absolute Highlight des Jahres.
+            <br> Ihr Kind erwartet 10 Tage voller Spaß und einem breiten Unterhaltungsangebot, wie zum Beispiel Olympiaden, Stadtausflug, Schwimmbadbesuch, Turniere und vieles mehr.
+            <br> Auch für unser KjG Team, bestehend aus den zwölf Gruppenleitern, den Heflern und der Küche ist das Ferienlager das absolute Highlight des Jahres.
             <br><br> Wir freuen uns schon riesig auf das Ferienlager mit euch!
           </p>
         </div>
@@ -110,7 +110,7 @@
         </div>
         <div id="packliste" class="box">
           <h3>Packliste</h3>
-          <h1>Packliste für das Lager</h1>
+          <h1>Unsere Packliste</h1>
           <p>Hier sind die wichtigsten Sachen aufgelistet, die im Ferienlager auf keinen Fall fehlen dürfen!</p>
           <ul>
             <li>Feldbett (oder Luftmatrtze)</li>
@@ -140,6 +140,7 @@
     <div class="footer-bottom">
       <img class="logo" src="<?php echo get_template_directory_uri() ?>/assets/images/kjg_Muggensturm.svg" alt="kjg logo"/>
       <span class="copyright">&copy; 2019 KJG Muggensturm</span>
+      <a class="fehler" href="mailto:friess.marius@gmail.com?subject=KjG%20Lagerhomepage%20Fehler%20melden">Fehler melden</a>
     </div>
   </footer>
 <?php wp_footer(); ?>
