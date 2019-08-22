@@ -74,17 +74,33 @@
         <a href="#infos">Wichtige Infos</a>
         <a href="#packliste">Packliste</a>
         <a href="#bilder">Bilder</a>
+        <a class="weatherwidget-io" href="https://forecast7.com/de/50d139d48/florsbachtal/" data-label_1="FLÖRSBACHTAL" data-label_2="WETTER" data-days="3" data-theme="pure" >FLÖRSBACHTAL WETTER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
       </div>
       <div class="content">
-        <div id="motto" class="box">
-          <h3>Motto</h3>
-          <h1>„Mit der KjG durchs Jahr!“</h1>
+        <div class="box">
+          <h1>Ferienlager 2019</h1>
           <p>
-            Unter diesem Motto geht es für uns am 26. August in unser alljährliches Ferienlager.
+            Am 26. August geht es für uns wieder in unser alljährliches Ferienlager.
             Unsere Vorbereitungen sind schon in vollem Gange und wir können es kaum noch erwarten! 
             <br> Ihr Kind erwartet 10 Tage voller Spaß und einem breiten Unterhaltungsangebot, wie zum Beispiel Olympiaden, Stadtausflug, Schwimmbadbesuch, Turniere und vieles mehr.
             <br> Auch für unser KjG Team, bestehend aus den zwölf Gruppenleitern, den Heflern und der Küche ist das Ferienlager das absolute Highlight des Jahres.
             <br><br> Wir freuen uns schon riesig auf das Ferienlager mit euch!
+          </p>
+        </div>
+        <div id="motto" class="box">
+          <h3>Motto</h3>
+          <h1>„Mit der KjG durchs Jahr!“</h1>
+          <p>
+            Unter dem Motto „Mit der KjG durchs Jahr!“ werden wir jeden Tag unsere Jahresuhr ein Stück weiter drehen.
+            Dabei starten wir mit dem Muggensturmer Volksfest und den olympischen Sommerspielen, über Halloween und Silvester,
+            bis hin zu Fasching und Ostern. 
+            <br>Jeder Tag wird also ein bisschen anders sein, was euch genau an den Stationen im
+            „KjG-Jahr“ erwartet werden wir aber noch nicht verraten. 
+            <br>Wir würden uns aber freuen, wenn ihr einige passende
+            Klamotten für die „Thementage“ im Koffer habt.
           </p>
         </div>
         <div id="zeltplatz" class="box">

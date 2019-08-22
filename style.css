@@ -1111,7 +1111,7 @@ footer .footer-bottom {
   transform: translateX(-50%);
   display: flex;
   align-items: flex-start;
-  max-width: 1020px;
+  max-width: 1140px;
   margin: 4rem 1rem; }
   @media (max-width: 1024px) {
     .ferienlager-wrapper .page-wrapper {
@@ -1129,11 +1129,13 @@ footer .footer-bottom {
     top: 4rem;
     display: flex;
     flex-direction: column;
-    min-width: 160px;
+    min-width: 220px;
     background: #00adbb;
     border-radius: 6px;
     padding: 8px;
     margin-top: 1.4rem; }
+    .ferienlager-wrapper .page-wrapper .nav .weatherwidget-io {
+      margin-top: 8px; }
     @media (max-width: 1024px) {
       .ferienlager-wrapper .page-wrapper .nav {
         position: relative;
