@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-nothing to show
+Ein unerwarteter Fehler ist aufgetreten.
 <?php
 get_footer();
 ?>

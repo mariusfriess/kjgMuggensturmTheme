@@ -1,10 +1,16 @@
 <?php
 get_header();
 ?>
+<div class="page-title">
+  <h1>News</h1>
+  <span class="seperator"></span>
+</div>
 <main class="home-template">
-  <?php if ( have_posts() ) {
-    while ( have_posts() ) {
-      the_post();
+  <?php 
+  $posts_query = new WP_Query('post_type=post&posts_per_page=-1');
+  if ($posts_query-> have_posts() ) {
+    while ($posts_query-> have_posts() ) {
+      $posts_query->the_post();
       ?>
         <div class="post">
           <h1><?php the_title(); ?></h1>

@@ -5,6 +5,7 @@
   grid-template-columns: 1fr 1fr;
   margin: 3rem 2rem 6rem;
   overflow: auto;
+  padding-top: 4px;
 
   @include mobile {
     flex-direction: column;

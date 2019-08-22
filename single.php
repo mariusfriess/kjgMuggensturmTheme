@@ -1,6 +1,10 @@
 <?php
 get_header();
 ?>
+<div class="page-title">
+  <h1><?php echo the_title("")?></h1>
+  <span class="seperator"></span>
+</div>
 <main class="single-template">
   <?php if ( have_posts() ) {
     while ( have_posts() ) {

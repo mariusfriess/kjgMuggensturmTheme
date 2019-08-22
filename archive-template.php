@@ -2,6 +2,10 @@
 <?php
 get_header();
 ?>
+<div class="page-title">
+  <h1>Archiv</h1>
+  <span class="seperator"></span>
+</div>
 <div class="archive-template page-template-content">
   <p>Willkommen in unserem Archiv. Hier finden Sie Bilder zahlreicher KjG-Aktionen der vergangenen Jahre. Diese Seite ist im Moment noch in Bearbeitung. Bilder weiterer Aktionen werden demnächst folgen.</p>
   <div class="wrapper">
