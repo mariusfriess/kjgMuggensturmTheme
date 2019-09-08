@@ -143,11 +143,105 @@
         <div id="bilder" class="box">
           <h3>Bilder</h3>
           <h1>Bilder aus dem Lager</h1>
-          <p>
-            Wir werden uns bemühen während des Ferienlagers so oft es geht neue Bilder auf unsere Homepage zu laden.
-            Falls dies nicht direkt möglich sein sollte bitten wir Sie um ihr Verständnis. 
-            In der Zwischenzeit können Sie gerne in unserem <a href="www.kjgmuggensturm.de/archiv">Archiv</a> Bilder vergangener Aktionen durchschauen.
-          </p>
+          <div class="wrapper">
+            <div class="boxWrapper">
+              <a class="boxInner" target="_blank" href="https://photos.app.goo.gl/5z3NcW94YVktnA6Y7">
+                <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/Bd2PRCPwK9Yw6KMeP_bF-D3UKBvlGKbS4_MrI4f02v85vYwOFaK9F9L7Ki1SxQ9xdAhsqTxTmSjojtNwjX4duC63TRiFtSGqNihYIzccB2HDCYfqJaYV0u6X7SpshTN4qs17aP4wypkVpM6rfcwXieAMP40OS2-UmHrLSRmfECCnbZMljqreOXAmtLfsULE9IqU-sqJLodq2TqX_Xd3suhzuRl4FByvWQKfbEiEl3SMxB-lSNxPd9dDcCBerNFmjnJJMTDj39_lHHhtjAodyLJ2CDxmS1Uh-sQWbCTTyMNQnDgq06VxTqJOYVuSxqly3BEyCRJRsjq2A_pJ9evczNc44a1mSD4UmsUkHr9WZdrB4-jHGRHzyrf5FzMKNx-pdcrJAGgddr4cGolDilU-OAfuQ1_5sHtdtXsGKTps-asWApTNZJ-721XsOfqA9BZCdDdAiEosL7zwGAlYnqlNYR1xj5OrecXEL2e4B8WJGTsP9pczwiK_fZoBlvBCRkduJpl-7w_JWe3sFDllABLPV37dusv_Xd7RyPCDXgnQj32hExPHqeKEvWbYPFdzSA9mK5Pf1yd4pQXpB0X-LPoqxXornW0fCWHAWY4jVw6Ajrcsz0-rnYPdjUv2K2AEH0_844jYn91-EpIwm0M0JcY3oo9ZjfsMqfEbOtev8pT2tL7hxZhTzCru2fBOAhRBZTOpB-izCMiSx4JhFkMLHi8UVBDuJ3WSCE8qPWoy7fgW3buP8AWmX=w1530-h744-no')"></div>
+                <div class="title-wrapper">
+                  <span class="title">Aufbauwochenende</span>
+                  <span class="subtitle">Zeltaufbau</span>
+                </div>
+              </a>
+  
+              <a class="boxInner" target="_blank" href="https://photos.app.goo.gl/8fFDnCjZ61Nj5VW18">
+                <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/i4_gZFUMx3e9Pl7UqW-cNCMsnjz0aNaxGH16rmpnfFJFMjhirNuFSqA_-4yMOOGbxhn1PbWmq8IXHvCn1Ay0itB8Rx7CTse6QygtzDCyNqQrpnReZuBW0Xgn9vEGIMgDKVVn2irwWPG77spYYlZ6WHnpEhTe1uzhvJP9GTPE8Dsy38lSNPQ5ArbjbMfSV-eRoxJ3YrWzTrWspzvSpeE9HZrjTA7lRzmQppwbH263jRaEY5lNsJVkSYJGt1pZyKl6PPXon4DPqDmV3vdfaNjZuzMC9D9y4MjibForZlWqVLlB0dfV_KsjuJt-gJP8GOBrsBug_SlsqdunS2lQtdlXJee7ObmDezUsZNYdOZtteEe0au1dA0Azm7YzUXDVq9RYuzkNMyUh5tSQJmEgsXR7aDQSGrdx7texd21WDu9YQCpalN3sU9QgFdt4xnHI1Z1JMVY8Y4bfueoGNttIEaT7zJPcpRYrCChC_LGE3WV2pE-xpYAkcT57VhJxbbmja-TvcWfx2FBuFX0t94INsAmsy1duKqp75blYW6tg1esM5bIFUUZDmITonHAProy30ai-w56fYBKWZ31vAVBC-ivHLSw4gWASwMzrRrHvZP2eCAdQerfJp2GVMzS4YXvz6IQRuJaIBYaOQ6FsWYXI0NO22Ukh2rZB1ATpTuiFbWqSnv_zBNzA3PmIPBdEiAhieXiUDtm__zqKPS4DXmqhx-l_8HCe=w1003-h752-no')"></div>
+                <div class="title-wrapper">
+                  <span class="title">26.08. Montag</span>
+                  <span class="subtitle">Ankunft & Disco</span>
+                </div>
+              </a>
+              
+              <a class="boxInner" target="_blank" href="https://photos.app.goo.gl/cwXj337G6K6DzJZj6">
+                <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/u4tt3Vv2ZkaLms-90PnfKblqtl2lWQlljZkNrEv2OgEOxgZbOJyk2Eg5ZsFOdJjdAutyKlz5ICMMdpiLlC6ZowJUNDX3WyZ5aTGHa6XDXRXXInOx8PDd2DBl1KgW5aODp_eaD5l8cFKyd0SaRrMB1XFX7qJOPeuH3end6s1eX8tdzjPaDrbzNUiJmBUBQ-2k8b8WVZekkgNjb_Jmk0rAF7bnkuQMMnW-EY_-UjMFlFveJmTZTiyZ11_JLhWVw7im5RucEajRhdWwRJHiXyUuRZfVReRoDS_RIBRNhBFH81XyMYvJYWTOnyKWz5ixqWgFLyWTa23ui-wPYd3P0PsD2ZZZwapjEyPT1zmVlFvv4C_1G0wUIMpY_l4JOBztHd0nSP98el03k39SSfe2oceA1WkKte8LqhZyKJpm7VXMmvaWt3EP0wAgT1G4BFLUv-vrgfYPMF8Hj2Kxdy9vAHmdD1I8FoIMnKB1nzr58Dsc7ni0DFSJQdGKQCNwXcmuRQmq2cfae2n6PtkQ3yM-TbWFkYndzYP-iuCqoJFqy4FFNQzNO7yDvc82dKzrl8l3kPqj1PvD9Ivkmku9erjRN153ozAvRCYJaIvVT3y-ov25-13ELXvP8Q1gqR4hpqIu2UssmJkkbxFtcmOnie-q0CtVeUgbvTxFsTc4BgQSXxh8S6M1MchXd6qMhA=w1068-h801-no')"></div>
+                <div class="title-wrapper">
+                  <span class="title">27.08. Dienstag</span>
+                  <span class="subtitle">Olympische Spiele</span>
+                </div>
+              </a>
+              
+              <a class="boxInner" target="_blank" href="https://photos.app.goo.gl/zLW5kBHnpwuDPWCH6">
+                <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/u7QpzKo9ju626zdqcuIHLegPuT5ctMvVHeEH3yihaHtE4fqRZVMWD-kgDfy50dSfihRxFUe-OhILYC6UWmzWvOPptCBdYSUZJFJYmrAPrHcGRId_Qyqn8QrVZKdOe-_Q9W0F-1peVjMNoFwc-RopImQOqa6vsQa7utxwaarD6TtIUesbWWlbCbvucXlRElIsgmLxGf3t1V9J2Y8rqxk3MDPxQEQ238D6bMO4hOISdQupo_7KbShq7rVR5cFCnwiNUx5PYtg3kioXbzHsa5wVDDm0GbG8Zjnrxr-jq--Aq21Q6bK8o8qIpO6lvJqPSwQWPMRg5ekAOszUFQ8hlaFKwhgQtLyDUSm-1W0NX1srrQXiPyTdHTl29MTnKG3tIGw1YEC7zMa72mHMVnmXFXjlSz5hNyP3BvOOtEMK-q02Y8fcz0NywNgyMFW9Rjn7yhZnU5QegjbA3jbiVA3eTCPYBCC5xRlfC1xd5RNDDvGaLFmi-64vz9xyKuuTN1YTpCsNXZ2encK16GWdzXo5-v2OnwvtIs7Uuw4nxraOXGq4EwiPlLhOJ_4kvvy8nJMUw6TzA2Fo9NsFobXIKun3qjlz73K9FRANtsTB9Ls7atkY2nezxJ1uOcr1AdeGMKMx0krU40Upl8p7Zu5EDJKHT30FLc9WE1-A7zB-LE5QNBwcV3uVj1IpS8LXWA=w1068-h801-no')"></div>
+                <div class="title-wrapper">
+                  <span class="title">28.08. Mittwoch</span>
+                  <span class="subtitle">Filmdreh, Wasserspiele & Quiz</span>
+                </div>
+              </a>
+              
+              <a class="boxInner" target="_blank" href="https://photos.app.goo.gl/xa9KykvpaD4FB2jH6">
+                <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/z4Nk1Le1Lc9YNRqrSckzX2Kuy6eKwcjDwC8TPYwcsZ92UHu4xO-77p3pkIRjn1EPRqNntfUMis8dSofDpwgOFYvas69mkGx8alRYM77t50ZOE_ud8Fc0iXhy7xNmWiM32XY7z5WUZzeEMYKpKVw0YEM-ZOnAzAf8qG5k-C0GbR-Q0L2vs04TXAk5XrpLN60GyOM5VR1TOLYzsk_JKWLsd0yTmBzz3nZCzP5ic832K9Qramn4Cn-QBIQO836KZM2YBJyvSzXbxoBhtFEtljoAsTo1_LzlOX14nYpq0Kc7UyYpDWF5S1FSxIG0-y5PgO6Q5kZtTnrUxylUw1RSCz6ZhbRbLosW_UrRUx-olYOhpjzm25ahAqx3qOja40-QqChGQNr3rxsaYHz7xJIqPiDR5xEfVh6wCgyqoLzfcZPKFqnUATyPppaWMSlBwDuBFmEybBOpBm0y6Etxv8djF8B2HhDJ0PRCH_EmbXFNO4ZE75BEz7dxon3t26TSpkh5gB8wecaVfY46EKHS6a03ef9E_XtrJrY18oTRlr5f5FIDvvyCYhkLNfYblesYb3JKmEXMiFr82MVzLCScigKuCI5bn9RQ_AF8aMdoMQtyjEHtW2eEVJBCG3mIS93qponzdme26BS9dPTngcoq1zJGvE_motOt0cMUTL6Qw2xC2veFCtoBOFwYlyRQMfKKJOp7jFxVhhaUnLISF80DTYpWkkBxz5JmMgzb8-eyJIh3AuoP2bV_kyw=w1068-h801-no')"></div>
+                <div class="title-wrapper">
+                  <span class="title">29.08. Donnerstag</span>
+                  <span class="subtitle">Stadtausflug</span>
+                </div>
+              </a>
+              
+              <a class="boxInner" target="_blank" href="https://photos.app.goo.gl/ZNPM3oQSHpPW7oBK6">
+                <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/FUEQrmhYSrqJXn2Qk-LLjqXcu3i-s7mfZYoWolG4GAFVZsrt4LrMptoLt4h2J1fdP2j8TlPIa06C1YUq9mzVyx_Hrw19I7IN88tsVl558z_orkR4RR9dTxKtRMS7gZC8XytWCzPDD6f1ULB3wdd3wLRBG-34xCtAq5jvJKtIayelJ4GaDPzwaWKzVihitCLlH8PohAQIz8I_vc_0Pee9p1WF7HHF9YkbUKXGkwVJ6RbUrlf-C4yG-MrwhYcqrkaQ2BTAv8VFYbSTq8c_dbJi11Th8HsRJiOj0zQwavTGhg51bj_YStoobMYamtcsEfPYEN9rk4QNe9z_u3bLvJdBeD-ciWhG-NYJWkbnmpkYAxJ7RiiSAeYRSR4gvq-ZRr9Ak_VFHXNVXNeMhrJGhXxPVe72vU1zC0bxkUvkiXOmaPZkSw5oZ_ojk8Ksw-RRuOZf_zRbW0P5P5xsq5kOF0aqyZ-viIxBEbmbzfrWaF4h6sS1JShYkJMXL8JBUO2s-c2iaCXasEw0IhiWZDxAL0KQ6cw9nrmXfsSZUK5nzz-6IHLWVCAnV7lwXQ0s_nP_riC1y1UJ5E8tzieVDPHBsYFhjXrj2hom65VYT5ET8xElcgG-iEkJ3nPW0Rz2bpHa0xl_g1KXsieYa_YVfWBFK2PTMSzN51OJ0NcgFz4-S7-3HJbU0Csby6cY5g=w1068-h801-no')"></div>
+                <div class="title-wrapper">
+                  <span class="title">30.08. Freitag</span>
+                  <span class="subtitle">Brennballturnier & Silvester Disco</span>
+                </div>
+              </a>
+
+              <a class="boxInner" target="_blank" href="https://photos.app.goo.gl/E5yfU4toTCVsAf3LA">
+                <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/y339zGeJ4kF5ci6Me-1atfNRexBlnru_u47dWOrdlymb5JFAdBHKPlNR_V8obrH6XgMfaP7Mhtye7J__uZZYHlWvE08-qzR1bbMDbxvW_GSw6cUjc5ubqgLxTc6e3iFuT5aqu7VzMbOYHFdIfsT3dGKruvP4xFykIv0Qf2zY7rGYzku55xFVsVQhcR9DqkVXtpxTTaXwLR9lyddBy3yEGM5EPwPnvzuWoy1-GjcXVoubaewdqmzku-YJ_RqPoOddREWQo3Qmy1fLcwz_9DKI4BQZfLn7rIQLWqNGyjdb0kjNMTslOSTI_K8-gUstwOUYSJheSDqTSU9HR_ExVOhSk9qONSoAArvf68WLRsxVwzJ8XvOQmBFz5sruki-Y4lJU2A6yklvA4BcJyQsDvAugjPNza1ofun2TF8pekKyuh_LuPARxefXhd6lUqwNLpMsn_-kMJF9YVccD5-kG90sHrJxpwEA1Wa2ibsT95whS72uhZhNWvLsmCLqOgQGbdMKemcRr71uuaeW4zHW3FZ7jB19PrlMMG2nYNIsvthUVS08KiXDjnZFIluYDJvMZ77CzSGyj6mbboG64jtwZl2f8cIuljBWt9AZrYmL6bPg8Atsd2qIIGUMk8D4Nq_34IWPfo4suiW-Bmaed0M6noiD2WlktgKID0Cr81Rsra3i9Easnz1YvOQu090jeDrzKEyrAB99xGBLMwN0K4PrkC6BCR_mHD8aUXYMOyrWltAgHPIQS6fCl=w1068-h801-no')"></div>
+                <div class="title-wrapper">
+                  <span class="title">31.08. Samstag</span>
+                  <span class="subtitle">Workshops & Nachtschnitzeljagd</span>
+                </div>
+              </a>
+
+              <a class="boxInner" target="_blank" href="https://photos.app.goo.gl/xQeDRiaE7fzy2bG5A">
+                <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/zcYwFZYGbTcBOrnBA-I9xngProd6ii-WDWfM5NYcmyejQbGPNfMJqHbdXrZMS5nunlaUMVBeZjc4-pQh0ChrpFUPTsdZnqaRooXUnMjyd3j53cI3_7_k1jRtu_I2_E5FYTKBjYNLk_3oIBtbYC76W5OIN2OnbP23GNJGPooqWptdmn0aJpcMFvUGdYDAD1oyxZFSeLO4sNKgg24UHAhiou0fnKKw-BX1P9EBWvhnAT9DYCvZYqYRXpEpxtN_NxmmRapRw7D6-qtrImKKfzmPfCfBWzPU6aOQLXv_lijJ49sYsUx6qCXvBhw-SaAvX-NyWQxaPbihiTp8JTN4kVx2oGMn0AYjUZaYxWiIPQw3iMFcJioRHym81HAvl4T5NhJ23Meai2oxjJ0zIizd_zKB3age1F1AJ83lFTVft2A489z3KI7KJqxarzHJPFWpFOOiT4KHRhDWe1bYUJJajoxKD4DSzsgVCI5pR40H02ClnL8D6YIoH4bchquqqtJBCZBhgk9c80XN39i9K--nh3OOF1W-5vpXLv-JTfZCq-ogEPZN_0h7SBi0BCmKolYI_LAhDA9VuY9F6_rHtSHFJwsvNiLLqEzm-nMbcPchY8ME-W4L4Bmul9UZcx_vQ_QYuAK2tCSyQo9yxL-GU5S_wQpAgrebCXGSB1VFWaL_fb5OqjniOHlAquNjteImbH1SIb5MZfmU9ou6BKgCLEuJ2huRmYDwJs-fAeK5s92N0KiUxIABCrD-=w1068-h801-no')"></div>
+                <div class="title-wrapper">
+                  <span class="title">01.09. Sonntag</span>
+                  <span class="subtitle">Gottesdienst</span>
+                </div>
+              </a>
+
+              <a class="boxInner" target="_blank" href="https://photos.app.goo.gl/hvm9D4j9EHY56o938">
+                <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/WyqkQjgH8ItU6QAhJNHhDAVHr9fmHMxQFHHrX6Wh2k2dmn7jGVPK7sQyj8_64HhYstcfMuOL5e8W6-7QUo51fLavo61vzVPS8dW3bcBowyZty5Ij1Bd3ANESddokXq-wyTqKCfm9tgs8kUbEv5ZFztoovsd_ggl_JMGoPOOLYIUYuMsx19vBeqJ8Pez6xgpaKY1q4q7qM_UkfEZVZl1rl46OaTwgVg6reIdqbjcD_MPIE3mk2AjtxW-FewWQasBvQwvSafEPwbV_tawfZrO0w9xEOThi-ebrhBIV4Lu0KV40vl4dzWrkjw-33bEFKPqsA09xve_12ztGrjycimuTIWVsreEY37pwefmUnLU1BMXlINf8bF212O9Jl4wzxFLaKuyHAdzhuzdyEV8byhyh6qmlcV3KvzYtIc7Nmtymow1OwFbAtxkmYw8KWcvd1cWflTol3WhkACloApIsmGxucMjsoKIhLaHvNTH7-LX-CBRAHgZsK3IkoPMqRxhLw3sIzUmJvKzs3NPXwj7FBsb1FXpneuUG9Z2KXIAx7SCr9Z4VeL92B5xjz52vRTmHUj38fCRqBJPbG6ht5GSJH58BhBbMYo9VXXaqs2sNP842-xZZKqtWpR6lMpzErR19TuN96HAI-piJEzwxoOVtv6WOXoNDOX2ESqxYfX5ar0_30gxZjY4yUjLDM85NvD1x41S7Sf2vSFXi4kxaIYSpcMeemdTTreWqt5kkQVymr7uS4P4WMCgy=w1424-h801-no')"></div>
+                <div class="title-wrapper">
+                  <span class="title">02.09. Montag</span>
+                  <span class="subtitle">Schwimmbadausflug & Bad-Taste-Disco</span>
+                </div>
+              </a>
+
+              <a class="boxInner" target="_blank" href="https://photos.app.goo.gl/c4DKmf26c8QuNMue9">
+                <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/vkIzhX5DEu0DBdkfcV5i_44cbcp5cPlpvDKE0Nq4Phx0-Dd5wDjFAbu1o2uCDabWLixL9MVRjbbz0VOu5q0BElvQjQ2s9_iAztChxlTUBip-_AUAiNDianu0qLNH0_bubJewmR6PQ61W47vju_kQXQNDDabJj8Se5Dh9h90NldxvKjyM2gX7xLNiuCkblV4UrAq2PdkQViEBoRu5siqglM-1QAuxID_CUqjJBwuExIL_Ij-Us1gYDeeLAg6UPPdjIOKpIWHirwVuz4Py_q_ncuZm0c_fu7wsHub5FLavbnWH3xDfzalafQRyfwOjqEySCxmrLCbm8-dcKVuRY4BCnychM9Ja8_cjImq9qEPTkmIy2-7C1eoowsL7VzxNcWPOF6W_1DuB0b-qxKUzAMYLTIsDoQay47qEcHMlzfd3LlQmmNK4UHN7tE2nmA_Zn1ZFjI8w2HjEfefQc7kLuXsmONWE0Ind08baM6oHvRNZic_7_qEJS51exx65S4mDuGzG9dJ3VUBXjh2Uofjia7lW7yUuWCdWYhGQN23tEyyxcdffDmQnGXphNfvelMGMz_74cmAgCxkm-wCIOGG6lQq-CtoO4PZQkBxoSkIFTMMZ8Xv5kTMlazZ_y_Vifh_70pQacdEr36fuE1vrNt0sx4QzmY6Ka0jij_aHqpzNXD4bGDtCZM9xGcztLefgnn_EE5Gfyt-Xyam9vs3qncA3-Dazb-h-oV9DroKlIUeZLZzv8pFFk7ff=w1068-h801-no')"></div>
+                <div class="title-wrapper">
+                  <span class="title">03.09. Dienstag</span>
+                  <span class="subtitle">Abschlussdinner & Verabschiedung</span>
+                </div>
+              </a>
+
+              <a class="boxInner" target="_blank" href="https://photos.app.goo.gl/66ygVT1r5gt5sQSP6">
+                <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/GzGMehCPoPOsr-FxOIgIma6r1vDFgsj6gAK_qRwvbJTyrhUldhRfi8PM-f-gOqV-yg8dES_ISTBmTPLrCsS7w1Ae7B0dyctoTMbivZkoyCNt3eZB8xMvll6Zqt4Zoi9uq09HGJf4halSq6b_tGpgZ8yMfflXwdCdT-3P11rmBl_4P_0y2JZzt8kxJ5Kb54uowOr-87XwfV5sQWkuIhGapd_JxxHuUnfimC4beJ_vs1pOmXa17F3RVqNsTDME93MaQufNePhbr3dBgzE2pRkRe3u8P5gLApUt6uU3ChjuIg1nctqnCPuq9USdWZ_luqBINwCJuExunyc5PseBArWf63sJmWjqe1DIWOanQ0VxVs1AHuSfxE_oB210WbrzDhk1zxZVtajh8VcwkfmrIV17_VJTFVc1IjmxCOZteFwArrsVaa-5netXTF6SiP1Vjuw0lGFyEmKglk7acIJN2cDkpd9vIichAIZwOuhCfVEnGkdIw6HHCvy6sClDfaMbe41mPaHF0hhh-_MABkoZ98yv8TmdC5QHeev5o4ypDoC1uXFx30NivSF_thL7OPJe-mPAlTY2CRCNhS5FOPLedhAHauB1mDX43kgpQdhvq_vXVVlyQQPHJ_EZ6Ro7obvYV1c8uEGvnn0PxoNli9Cv4RnLwgTRZpzFQLOyWlpN1LL0an6jMG3-zmfWAzxqu15K32GxuyXj_DPX-GalsjCh-HjzUtnx6LrGJskqS4gYV7okvRvEguKn=w1068-h801-no')"></div>
+                <div class="title-wrapper">
+                  <span class="title">Gruppenbilder</span>
+                  <span class="subtitle">Bilder aller Gruppen & Betreuer</span>
+                </div>
+              </a>
+
+              <a class="boxInner" target="_blank" href="https://photos.app.goo.gl/dedhhWXe45XHjfih8">
+                <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/tcgr_uD7Cn6fA7ch9qgajUXn6LcDNiP3oLqGr0LpGORXk049JY5_GA5kiAhHw77X2-NSPc0e9qWzBaIxqS7I6FwMdBLqSlmJ2-UqcLGVeIpFCWlP1DK7GscZ8XYUNUpM3q7vDoBhMJF-GaJGzLUeJFK8SspBtY-pEuwqe44zdbdwNRqQvbLo5KAcgwgrIrui4OH_YpfoXDRVZZ3dDljKAl88ltf7bsDVrui4bqsDwiCG6DQPiUB80g4_EMSb6B-80dUKOZkOVvo5JLCGr-lqJLjC7sagsojX0IbVFPbwSj0PClo3dwyb6UZOCir01FGJsefHnprHsXPXsz0Ku6uBCzCgR_CkJP0C2Z-PDjeSa5Xf9-PBewOBSMTHUAxjCgVOZ3TDfR1FSNCXz7Ks0DCtE1t_IGmQbGsyMX5h-3jdbF6nPNbsffE9v5qoziRBLbBWN9h_o7u0Di4uyKfD7DrEGhSCy1VRm-3jcVvDkbVfdKn8mXHzkUqvPYaN8ah2OjyDan1QRwxtuxTpl3bWgJagO_eojMgqI5Nax55HiCzQmWQ3lW7Chzvx3PtROPPfhMuk9iJ9QiwSy9s2OMTz2H9b-a4Xer5-S5Adkg4D8yiGUiZTuU3CucjhbXOwUSJ62IN7T24lKtkfW2v14o1XnCvHs0IdKBWYW0js8G3ULxjoTxBYXsV_VBkFcVlwsrBpJAYxPxqQGsQd-zvtW46su1wMi2BDjGr2wyvwuRKKVDqppnjvLVmi=w1068-h801-no')"></div>
+                <div class="title-wrapper">
+                  <span class="title">Sonstige Bilder</span>
+                  <span class="subtitle">Alle restlichen Bilder aus dem Lager</span>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

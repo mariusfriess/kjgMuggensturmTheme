@@ -11,6 +11,11 @@
   margin: 0;
   color: rgba(0, 0, 0, 0.92);
 
+  @include mobile {
+    padding: 0 0 6rem;
+    width: 100%;
+  }
+
   .the-post {
     img {
       max-width: calc(100% - 6rem);

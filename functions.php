@@ -80,7 +80,7 @@ function kjgmuggensturm_customizer( $wp_customize ) {
   ));
 
   $wp_customize->add_control('popup_dateTitle_control', array(
-    'label'    => 'Titel (Nur bei Datum)',
+    'label'    => 'Titel',
     'section'  => 'eventPopup',
     'settings' => 'popup_dateTitle_setting',
     'type'     => 'text',

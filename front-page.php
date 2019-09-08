@@ -4,17 +4,24 @@ get_header();
 <?php
   # Optional Front Page Popup
   if(get_theme_mod('popup_enable_setting') == 1){
-    echo "<div class='front-page-popup'><span class='title'>" . get_theme_mod('popup_dateTitle_setting') . "</span><span class='date'>Nur noch ";
-    $date = strtotime(get_theme_mod('popup_date_setting'));
-    $datediff = ceil(($date - time()) / (60 * 60 * 24));
-    echo $datediff;
 
-    if($datediff == 1) {
-      echo " Tag";
-    }else {
-      echo " Tage";
+    if(get_theme_mod('popup_type_setting') == "text") {
+      echo "<a href='' class='front-page-popup'><span class='title'>" . get_theme_mod('popup_dateTitle_setting') . "</span><span class='date'>" . get_theme_mod('popup_text_setting') . "</span></a>";
     }
-    echo "</span></div>";
+
+    else {
+      echo "<a href='' class='front-page-popup'><span class='title'>" . get_theme_mod('popup_dateTitle_setting') . "</span><span class='date'>Nur noch ";
+      $date = strtotime(get_theme_mod('popup_date_setting'));
+      $datediff = ceil(($date - time()) / (60 * 60 * 24));
+      echo $datediff;
+
+      if($datediff == 1) {
+        echo " Tag";
+      }else {
+        echo " Tage";
+      }
+      echo "</span></a>";
+    }
   }
 ?>
 <div class="front-page-header <?php if(get_theme_mod('popup_enable_setting') == 1){echo 'popupActive';} ?>" style="background-image: url(<?php header_image(); ?>)">

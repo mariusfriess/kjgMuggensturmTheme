@@ -18,6 +18,7 @@ button {
   -webkit-tap-highlight-color: transparent; }
 
 .aligncenter {
+  display: block;
   margin: 0 auto; }
 
 /* Important custom css */
@@ -199,7 +200,8 @@ header {
     height: 52px;
     width: auto; }
   header nav {
-    height: 100%; }
+    height: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
     header nav div {
       height: 100%; }
       header nav div ul {
@@ -405,7 +407,8 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  text-decoration: none; }
   @media (max-width: 519px) {
     .front-page-popup {
       padding: 16px 4px; } }
@@ -421,10 +424,12 @@ header {
     font-size: 1.8em;
     margin-top: 8px;
     text-transform: uppercase;
-    letter-spacing: 3px; }
+    letter-spacing: 2px; }
     @media (max-width: 519px) {
       .front-page-popup span.date {
         font-size: 1.2em; } }
+  .front-page-popup span.lagerEdit {
+    text-transform: none !important; }
 
 .front-page-header {
   position: relative;
@@ -720,7 +725,7 @@ header {
             border-radius: 4px;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
           .front-page-content .posts-wrapper .posts-content-wrapper .post .post-footer span {
-            font-size: .8em;
+            font-size: 0.8em;
             font-weight: 600;
             margin-right: 4px; }
   .front-page-content .gruppenleiter-wrapper {
@@ -928,6 +933,10 @@ footer .footer-bottom {
   line-height: 1.8em;
   margin: 0;
   color: rgba(0, 0, 0, 0.92); }
+  @media (max-width: 519px) {
+    .single-template {
+      padding: 0 0 6rem;
+      width: 100%; } }
   .single-template .the-post img {
     max-width: calc(100% - 6rem);
     height: auto;
@@ -1013,7 +1022,7 @@ footer .footer-bottom {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    transition: transform .24s ease-in-out; }
+    transition: transform 0.24s ease-in-out; }
   .archive-template .box .title-wrapper {
     backdrop-filter: blur(12px);
     padding: 8px 16px;
@@ -1155,6 +1164,94 @@ footer .footer-bottom {
         margin: 0; } }
     .ferienlager-wrapper .page-wrapper .content .box {
       padding: 2rem 0; }
+      .ferienlager-wrapper .page-wrapper .content .box .boxWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 0 3rem; }
+        .ferienlager-wrapper .page-wrapper .content .box .boxWrapper:last-child {
+          margin-bottom: 0; }
+        @media (min-width: 520px) and (max-width: 1024px) {
+          .ferienlager-wrapper .page-wrapper .content .box .boxWrapper {
+            grid-template-columns: 1fr 1fr;
+            margin: 0 0 3rem; } }
+        @media (max-width: 519px) {
+          .ferienlager-wrapper .page-wrapper .content .box .boxWrapper {
+            grid-template-columns: 1fr; } }
+      .ferienlager-wrapper .page-wrapper .content .box .boxInner {
+        display: inline-block;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 200px;
+        width: calc(300px - 16px);
+        border-radius: 8px;
+        cursor: pointer;
+        overflow: hidden;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        -webkit-tap-highlight-color: transparent;
+        margin: 8px;
+        text-decoration: none;
+        width: calc(100% - 16px); }
+        @media (min-width: 520px) and (max-width: 1024px) {
+          .ferienlager-wrapper .page-wrapper .content .box .boxInner {
+            width: calc(100% - 16px); } }
+        @media (max-width: 519px) {
+          .ferienlager-wrapper .page-wrapper .content .box .boxInner {
+            width: calc(100% - 16px);
+            height: 170px; } }
+        .ferienlager-wrapper .page-wrapper .content .box .boxInner:hover {
+          text-decoration: none !important; }
+        .ferienlager-wrapper .page-wrapper .content .box .boxInner:visited {
+          color: unset !important; }
+        .ferienlager-wrapper .page-wrapper .content .box .boxInner:hover .bg {
+          transform: scale(1.1); }
+        .ferienlager-wrapper .page-wrapper .content .box .boxInner .bg {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          transition: transform 0.24s ease-in-out; }
+        .ferienlager-wrapper .page-wrapper .content .box .boxInner .title-wrapper {
+          backdrop-filter: blur(12px);
+          padding: 8px 16px;
+          z-index: 1;
+          border-radius: 0 0 8px 8px;
+          display: flex;
+          flex-direction: column; }
+          @media (max-width: 519px) {
+            .ferienlager-wrapper .page-wrapper .content .box .boxInner .title-wrapper {
+              padding: 8px; } }
+          .ferienlager-wrapper .page-wrapper .content .box .boxInner .title-wrapper span.title {
+            font-family: sans-serif;
+            color: white;
+            font-weight: bold;
+            font-size: 1.6em;
+            z-index: 1; }
+            @media (max-width: 519px) {
+              .ferienlager-wrapper .page-wrapper .content .box .boxInner .title-wrapper span.title {
+                font-size: 1em;
+                text-align: center;
+                line-height: 1.1em;
+                margin-bottom: 4px; } }
+          .ferienlager-wrapper .page-wrapper .content .box .boxInner .title-wrapper span.subtitle {
+            font-family: sans-serif;
+            color: white;
+            font-weight: bold;
+            font-size: 1em;
+            line-height: 1em;
+            z-index: 1; }
+            @media (max-width: 519px) {
+              .ferienlager-wrapper .page-wrapper .content .box .boxInner .title-wrapper span.subtitle {
+                font-weight: normal;
+                text-align: center; } }
       .ferienlager-wrapper .page-wrapper .content .box h3 {
         position: relative;
         padding: 0 0 0 14px;
