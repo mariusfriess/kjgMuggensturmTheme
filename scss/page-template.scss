@@ -29,14 +29,10 @@
       }
     }
 
-    >img {
-      max-width: calc(100% - 6rem);
+    img {
+      max-width: 100%;
       height: auto;
       display: block;
-
-      @include mobile {
-        max-width: calc(100%);
-      }
     }
   }
 }
