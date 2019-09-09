@@ -6,11 +6,11 @@ get_header();
   if(get_theme_mod('popup_enable_setting') == 1){
 
     if(get_theme_mod('popup_type_setting') == "text") {
-      echo "<a href='' class='front-page-popup'><span class='title'>" . get_theme_mod('popup_dateTitle_setting') . "</span><span class='date'>" . get_theme_mod('popup_text_setting') . "</span></a>";
+      echo "<a href='" . get_theme_mod('popup_linkTo_setting') . "' class='front-page-popup'><span class='title'>" . get_theme_mod('popup_dateTitle_setting') . "</span><span class='date'>" . get_theme_mod('popup_text_setting') . "</span></a>";
     }
 
     else {
-      echo "<a href='' class='front-page-popup'><span class='title'>" . get_theme_mod('popup_dateTitle_setting') . "</span><span class='date'>Nur noch ";
+      echo "<a href='" . get_theme_mod('popup_linkTo_setting') . "' class='front-page-popup'><span class='title'>" . get_theme_mod('popup_dateTitle_setting') . "</span><span class='date'>Nur noch ";
       $date = strtotime(get_theme_mod('popup_date_setting'));
       $datediff = ceil(($date - time()) / (60 * 60 * 24));
       echo $datediff;

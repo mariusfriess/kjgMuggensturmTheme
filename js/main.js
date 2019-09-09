@@ -4,6 +4,7 @@
   jQuery(document).ready(() => {
     if (window.innerWidth < 1025) isTabletOrMobile = true;
 
+    /*
     $(window).resize(() => {
       if (window.innerWidth < 1025) isTabletOrMobile = true;
       else isTabletOrMobile = false;
@@ -14,7 +15,7 @@
         $("nav").slideUp(0);
       }
       //else $("nav").css("display", "none");
-    });
+    });*/
 
     $(document).scroll(e => {
       if (window.scrollY > 36) {
@@ -39,6 +40,16 @@
           behavior: "smooth"
         });
     });
+
+    $("#search-btn").click(() => {
+      $("#search-box")
+        .stop()
+        .slideToggle(200, () => {
+          if (!$('#search-box').is(':hidden')) {
+            $("#search-box-input").focus();
+          }
+        });
+    })
 
     $("#mobileNavBtn").click(() => {
       if (!isTabletOrMobile) return;

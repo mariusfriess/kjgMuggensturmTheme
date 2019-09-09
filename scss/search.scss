@@ -1,0 +1,12 @@
+@import "vars";
+
+.search-title {
+  margin: 4rem 4rem 2rem;
+  font-weight: 500;
+
+  @include mobile {
+    margin: 2rem 16px 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}

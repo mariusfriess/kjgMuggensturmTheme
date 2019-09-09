@@ -112,6 +112,18 @@ function kjgmuggensturm_customizer( $wp_customize ) {
     'settings' => 'popup_text_setting',
     'type'     => 'textarea',
   ));
+
+  $wp_customize->add_setting( 'popup_linkTo_setting' , array(
+    'default'   => "/ferienlager",
+    'transport' => 'refresh',
+  ));
+
+  $wp_customize->add_control('popup_linkTo_control', array(
+    'label'    => 'Link',
+    'section'  => 'eventPopup',
+    'settings' => 'popup_linkTo_setting',
+    'type'     => 'text',
+  ));
   
   $wp_customize->add_panel( 'frontPageCustomSections', array(
     'priority'       => 10,
