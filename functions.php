@@ -34,6 +34,14 @@ function kjgmuggensturm_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'kjgmuggensturm_scripts' );
 
+function exclude_from_search($query) {
+  if ($query->is_search) {
+      $query->set('post_type', array( 'post', 'page' ) );
+  }
+  return $query;
+} 
+add_filter('pre_get_posts','exclude_from_search');
+
 function kjgmuggensturm_customizer( $wp_customize ) {
   $wp_customize->add_panel( 'kjgMuggensturmOptions', array(
     'priority'       => 10,
