@@ -139,7 +139,7 @@
   .front-page-welcome {
     position: relative;
     top: -30px;
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
 
     @include mobile {
       margin-bottom: 6rem;
@@ -183,9 +183,7 @@
     }
 
     .welcome-text {
-      display: flex;
-      align-items: center;
-      margin-top: 6rem;
+      margin-top: 8rem;
       padding: 32px;
       border-radius: 8px;
       box-shadow: 0 15px 80px -5px rgba(0, 0, 0, 0.25);
@@ -195,37 +193,40 @@
       }
 
       @include mobile {
+        margin-top: 6rem;
         flex-direction: column;
         padding-top: 0;
       }
 
       img {
-        height: auto;
-        width: calc(50% - 32px);
+        display: block;
+        margin: 0 auto;
+        width: calc(60% - 32px);
         border-radius: 8px;
 
         @include tablet {
-          width: 74%;
+          width: 80%;
         }
 
         @include mobile {
           position: relative;
+          left: -32px;
           width: calc(100% + 64px);
           border-radius: 8px 8px 0 0;
         }
       }
 
       p {
-        margin: 0 0 0 32px;
+        margin: 32px 32px 8px;
         text-align: center;
         line-height: 1.5em;
 
         @include tablet {
-          margin: 32px 32px 0;
+          margin: 32px 32px 8px;
         }
 
         @include mobile {
-          margin: 32px 0 0 0;
+          margin: 32px 0 0;
         }
       }
     }

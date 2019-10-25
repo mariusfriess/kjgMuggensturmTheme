@@ -36,7 +36,8 @@ add_action( 'wp_enqueue_scripts', 'kjgmuggensturm_scripts' );
 
 function exclude_from_search($query) {
   if ($query->is_search) {
-      $query->set('post_type', array( 'post', 'page' ) );
+    $query->set('post_type', array( 'post', 'page', 'tribe_events' ) );
+    $query->set('orderby', 'type' );
   }
   return $query;
 } 

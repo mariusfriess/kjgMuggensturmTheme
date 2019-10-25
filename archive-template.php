@@ -45,6 +45,13 @@ get_header();
           <span class="subtitle">Königswald, Mömlingen</span>
         </div>
       </a>
+      <a class="box" href="http://www.kjgmuggensturm.de/archiv/ferienlager-2019/">
+        <div class="bg" style="background-image: url('https://lh3.googleusercontent.com/z4Nk1Le1Lc9YNRqrSckzX2Kuy6eKwcjDwC8TPYwcsZ92UHu4xO-77p3pkIRjn1EPRqNntfUMis8dSofDpwgOFYvas69mkGx8alRYM77t50ZOE_ud8Fc0iXhy7xNmWiM32XY7z5WUZzeEMYKpKVw0YEM-ZOnAzAf8qG5k-C0GbR-Q0L2vs04TXAk5XrpLN60GyOM5VR1TOLYzsk_JKWLsd0yTmBzz3nZCzP5ic832K9Qramn4Cn-QBIQO836KZM2YBJyvSzXbxoBhtFEtljoAsTo1_LzlOX14nYpq0Kc7UyYpDWF5S1FSxIG0-y5PgO6Q5kZtTnrUxylUw1RSCz6ZhbRbLosW_UrRUx-olYOhpjzm25ahAqx3qOja40-QqChGQNr3rxsaYHz7xJIqPiDR5xEfVh6wCgyqoLzfcZPKFqnUATyPppaWMSlBwDuBFmEybBOpBm0y6Etxv8djF8B2HhDJ0PRCH_EmbXFNO4ZE75BEz7dxon3t26TSpkh5gB8wecaVfY46EKHS6a03ef9E_XtrJrY18oTRlr5f5FIDvvyCYhkLNfYblesYb3JKmEXMiFr82MVzLCScigKuCI5bn9RQ_AF8aMdoMQtyjEHtW2eEVJBCG3mIS93qponzdme26BS9dPTngcoq1zJGvE_motOt0cMUTL6Qw2xC2veFCtoBOFwYlyRQMfKKJOp7jFxVhhaUnLISF80DTYpWkkBxz5JmMgzb8-eyJIh3AuoP2bV_kyw=w1068-h801-no')"></div>
+        <div class="title-wrapper">
+          <span class="title">Ferienlager 2019</span>
+          <span class="subtitle">Flörsbachtal</span>
+        </div>
+      </a>
     </div>
     <div class="boxWrapper">
       <a class="box" href="http://www.kjgmuggensturm.de/?page_id=4244">

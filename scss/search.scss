@@ -1,12 +1,194 @@
 @import "vars";
 
 .search-title {
-  margin: 4rem 4rem 2rem;
+  margin: 2rem 0 2rem;
   font-weight: 500;
 
   @include mobile {
-    margin: 2rem 16px 1rem;
+    //margin: 2rem 16px 1rem;
     font-size: 1.8rem;
     text-align: center;
+  }
+}
+
+.search-template {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1000px;
+  width: calc(100% - 6rem);
+  padding: 0 3rem 6rem;
+
+  @include mobile {
+    padding: 0 1rem 6rem;
+    width: calc(100% - 2rem);
+  }
+
+  .posts-wrapper {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    padding: 2rem;
+
+    @include mobile {
+      padding: 1rem;
+    }
+
+    &:not(:last-child) {
+      margin: 0 0 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 500;
+      margin: 0 0 1.6rem;
+
+      @include mobile {
+        text-align: center;
+      }
+    }
+
+    &.event .inner-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 0 -1rem;
+
+      @include mobile {
+        flex-direction: column;
+      }
+
+      .post-inner {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 0 1rem 1rem 0;
+
+        h3 {
+          margin: 0 0 8px;
+        }
+
+        span:not(:last-child) {
+          margin: 0 0 4px;
+        }
+      }
+    }
+
+    &.post .inner-wrapper {
+      position: relative;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      @media (max-width: 720px) {
+        grid-template-columns: 1fr;
+      }
+
+      @media (min-width: 1400px) {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .post-inner {
+        position: relative;
+        border-radius: 8px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        width: calc(100% - 16px);
+        max-width: 500px;
+        margin: 0 0 3rem;
+
+        @include tablet {
+          min-width: 200px;
+        }
+
+        @include mobile {
+          width: calc(100%);
+        }
+
+        &:nth-child(odd) {
+          margin: 0 16px 16px 0;
+        }
+
+        &:nth-child(even) {
+          margin: 0 0 16px 16px;
+        }
+
+        @media (min-width: 1400px) {
+          margin: 8px !important;
+        }
+
+        @media (max-width: 720px) {
+          margin: 0 0 3rem !important;
+        }
+
+        h3 {
+          font-size: 1.8em;
+          margin: 24px 24px 4px;
+          font-weight: 400;
+        }
+
+        .divider {
+          display: block;
+          height: 2px;
+          width: 40%;
+          background-color: rgba(0, 0, 0, 0.16);
+          margin: 12px 24px 0;
+        }
+
+        p {
+          margin: 12px 24px 88px;
+          line-height: 1.5em;
+        }
+
+        .post-footer {
+          position: absolute;
+          bottom: 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background: $blue;
+          width: calc(100% - 48px);
+          padding: 16px 24px;
+          color: white;
+          border-radius: 0 0 8px 8px;
+
+          a {
+            font-size: 0.9em;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #1394bf;
+            background-color: white;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+              0 1px 2px rgba(0, 0, 0, 0.24);
+          }
+
+          span {
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-right: 4px;
+          }
+        }
+      }
+    }
+
+    &.page {
+      a {
+        display: block;
+        font-size: 1.4rem;
+        text-decoration: none;
+        color: $blue;
+        font-weight: 700;
+
+        &:not(:last-child) {
+          margin: 0 0 1rem;
+        }
+      }
+    }
   }
 }

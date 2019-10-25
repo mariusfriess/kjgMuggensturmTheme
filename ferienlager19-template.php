@@ -250,7 +250,6 @@
     <div class="footer-bottom">
       <img class="logo" src="<?php echo get_template_directory_uri() ?>/assets/images/kjg_Muggensturm.svg" alt="kjg logo"/>
       <span class="copyright">&copy; 2019 KJG Muggensturm</span>
-      <a class="fehler" href="mailto:friess.marius@gmail.com?subject=KjG%20Lagerhomepage%20Fehler%20melden">Fehler melden</a>
     </div>
   </footer>
 <?php wp_footer(); ?>
