@@ -116,28 +116,21 @@ get_header();
   <div class="gruppenleiter-wrapper">
     <h1 class="title">KjG Gruppenleiter</h1>
     <div class="content-wrapper">
-        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/NinaStroehm.jpg" alt="gruppenleiter portrait"><span>Nina</span></div>
-        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/KjgLogoCropped.jpg" alt="gruppenleiter portrait"><span>Noah</span></div>
-        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/RafaellaSchiano.jpg" alt="gruppenleiter portrait"><span>Rafaella</span></div>
-        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/FerdinandFeurer.jpg" alt="gruppenleiter portrait"><span>Ferdi</span></div>
-        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/KimGastl.jpg" alt="gruppenleiter portrait"><span>Kim</span></div>
-        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/KjgLogoCropped.jpg" alt="gruppenleiter portrait"><span>Justin</span></div>
-        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/MichelleBraun.jpg" alt="gruppenleiter portrait"><span>Michelle</span></div>
-        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/FabioRahner.png" alt="gruppenleiter portrait"><span>Fabio</span></div>
-        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/NadineMoser.jpg" alt="gruppenleiter portrait"><span>Nadine</span></div>
-        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/NicolasSpaeth.jpg" alt="gruppenleiter portrait"><span>Nicolas</span></div>
-        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/LeaWeilerTatjanaVocke.jpg" alt="gruppenleiter portrait"><span>Lea & Tatjana</span></div>
-        <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/RobinKnapp.png" alt="gruppenleiter portrait"><span>Robin</span></div>
+      <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/KjgLogoCropped.jpg" alt="gruppenleiter portrait"><span>Hannah</span></div>
+      <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/KjgLogoCropped.jpg" alt="gruppenleiter portrait"><span>David</span></div>
+      <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/NinaStroehm.jpg" alt="gruppenleiter portrait"><span>Nina</span></div>
+      <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/KjgLogoCropped.jpg" alt="gruppenleiter portrait"><span>Noah</span></div>
+      <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/RafaellaSchiano.jpg" alt="gruppenleiter portrait"><span>Rafaella</span></div>
+      <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/FerdinandFeurer.jpg" alt="gruppenleiter portrait"><span>Ferdi</span></div>
+      <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/KimGastl.jpg" alt="gruppenleiter portrait"><span>Kim</span></div>
+      <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/KjgLogoCropped.jpg" alt="gruppenleiter portrait"><span>Justin</span></div>
+      <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/MichelleBraun.jpg" alt="gruppenleiter portrait"><span>Michelle</span></div>
+      <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/FabioRahner.png" alt="gruppenleiter portrait"><span>Fabio</span></div>
+      <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/NadineMoser.jpg" alt="gruppenleiter portrait"><span>Nadine</span></div>
+      <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/NicolasSpaeth.jpg" alt="gruppenleiter portrait"><span>Nicolas</span></div>
     </div>
   </div>
 </div>
-<?php /*
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post();  
-the_content();
-endwhile; else: ?>
-<p>Sorry, no posts matched your criteria.</p>
-<?php endif; ?>
-*/ ?>
 <?php
 get_footer();
 ?>

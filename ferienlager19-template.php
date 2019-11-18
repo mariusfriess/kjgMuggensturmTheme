@@ -71,13 +71,7 @@
       <div class="nav">
         <a href="#motto">Motto</a>
         <a href="#zeltplatz">Zeltplatz</a>
-        <a href="#infos">Wichtige Infos</a>
-        <a href="#packliste">Packliste</a>
         <a href="#bilder">Bilder</a>
-        <a class="weatherwidget-io" href="https://forecast7.com/de/50d139d48/florsbachtal/" data-label_1="FLÖRSBACHTAL" data-label_2="WETTER" data-days="3" data-theme="pure" >FLÖRSBACHTAL WETTER</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
       </div>
       <div class="content">
         <div class="box">
@@ -110,35 +104,6 @@
           <img src="https://www.vfh-falken-hessen.de/images/get/resize/1200/1200/gallery/2012-02-23_Zeltplatz_Floersbachtal/Terrasse3b.jpg" alt="zeltplatz">
           <img src="https://www.vfh-falken-hessen.de/images/get/resize/1200/1200/gallery/2012-02-23_Zeltplatz_Floersbachtal/Spuelstellen-Grills.jpg" alt="zeltplatz">
           <p>Weiter Infos zum Zeltplatz finden Sie auch auf der <a href="https://www.vfh-falken-hessen.de/zeltplatz_floersbachtal/" target="_blank">Homepage des Zeltplatz Flörsbachtal</a>.</p>
-        </div>
-        <div id="infos" class="box">
-          <h3>Infos</h3>
-          <h1>Wichtige Informationen</h1>
-          <p>
-            Es wird dieses Jahr ein kleine Planänderung geben. Die Kofferabgabe wird in diesem Jahr nicht wie geplant am Freitag, den 23.08. stattfinden, 
-            sondern <b>erst am Montag, den 26.08.19</b> zur Abfahrt um 10:45 Uhr direkt am Festplatz.
-            <br>
-            Den Koffer, Feldbett, Schlafsack und die <b>detaillierte Anmeldung</b> also erst direkt zur Abfahrt mitbringen.
-            <br><br>
-            Vielen Dank für Ihr Verständnis!
-            <br>Eure KjG-Pfarrjugendleitung
-          </p>
-        </div>
-        <div id="packliste" class="box">
-          <h3>Packliste</h3>
-          <h1>Unsere Packliste</h1>
-          <p>Hier sind die wichtigsten Sachen aufgelistet, die im Ferienlager auf keinen Fall fehlen dürfen!</p>
-          <ul>
-            <li>Feldbett (oder Luftmatrtze)</li>
-            <li>Schlafsack und Kissen</li>
-            <li>Taschenlampe</li>
-            <li>Wasch- und Badesachen</li>
-            <li>Handtücher</li>
-            <li>Geschirr und Geschirrtücher</li>
-            <li>Wetterfeste und warme Kleidung</li>
-            <li>Taschengeld für Schwimmbad-, Stadtausflug oder Lagerkiosk</li>
-            <li>Jede Menge gute Laune!</li>
-          </ul>
         </div>
         <div id="bilder" class="box">
           <h3>Bilder</h3>
@@ -249,7 +214,7 @@
   <footer>
     <div class="footer-bottom">
       <img class="logo" src="<?php echo get_template_directory_uri() ?>/assets/images/kjg_Muggensturm.svg" alt="kjg logo"/>
-      <span class="copyright">&copy; 2019 KJG Muggensturm</span>
+      <span class="copyright">&copy; 2019 KjG Muggensturm</span>
     </div>
   </footer>
 <?php wp_footer(); ?>
