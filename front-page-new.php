@@ -1,0 +1,57 @@
+<?php
+get_header();
+?>
+<div class="front-page-header <?php if(get_theme_mod('popup_enable_setting') == 1){echo 'popupActive';} ?>" style="background-image: url(<?php header_image(); ?>)">
+
+<div class="front-page">
+  <div style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/images/ZeltplatzHeader.jpg)" class="head-image">
+    <div class="head-title-wrapper">
+      <svg xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg3935" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" sodipodi:docname="kjg_Muggensturm.svg" x="0px" y="0px" width="121px" height="122px" viewBox="0 0 121 122" style="enable-background:new 0 0 121 122;" xml:space="preserve">
+        <style type="text/css">
+          .st0{fill:white;}
+          .st1{fill:none;}
+        </style>
+        <sodipodi:namedview bordercolor="#666666" borderopacity="1" fit-margin-bottom="-37" fit-margin-left="0" fit-margin-right="-15" fit-margin-top="0" gridtolerance="10" guidetolerance="10" id="namedview3937" inkscape:current-layer="g5025" inkscape:cx="330.28169" inkscape:cy="12.807241" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="836" inkscape:window-maximized="1" inkscape:window-width="1530" inkscape:window-x="70" inkscape:window-y="27" inkscape:zoom="1.9271429" objecttolerance="10" pagecolor="#ffffff" showgrid="false">
+          </sodipodi:namedview>
+        <g id="g3933" transform="translate(1.0378058,2.0904374)">
+          <path id="path3847" inkscape:connector-curvature="0" class="st0" d="M52,48.2c6.3,0,11.5,5.2,11.5,11.5c0,6.4-5.2,11.5-11.5,11.5   s-11.5-5.2-11.5-11.5C40.5,53.4,45.7,48.2,52,48.2 M67.8,56.2c-0.2,9.3-3.3,26.6-10.4,24.6c-7.9-2.2-20.3-8.6-24.6-21.3   c0,0-0.3-0.8,0.1-1.5C40,44.1,55.3,39.9,61.9,40.6C65.9,41.1,68,47.6,67.8,56.2 M119.5,51.1L78.4,34.2c0,0-0.7-0.3-0.7-1.1l0.8-16   c0,0,0-0.8,0.8-0.8H105c0,0,0.8,0,0.1-0.3L72.3,1c0,0-0.7-0.3-1.4,0.1L50.1,15.9c0,0-0.6,0.5,0.1,0.5h14.4c0,0,0.8,0,0.9,0.8   l1.1,11.5c0,0,0.1,0.8-0.7,0.5l-20.2-8.5c0,0-0.7-0.3-1.1,0.4L20.4,69.3c0,0-0.4,0.7,0.3,1.1l52.6,29c0,0,0.7,0.4,0.7-0.4   c0,0,0,0.8,2.9-52.4c0,0,0-0.8,0.8-0.5c10.5,4.9,13.1,15.7,13.5,22.3c0.6,10.3-5.6,33.4-20,38.6c0,0-0.7,0.3-1.5,0.2   c-31.1-4.1-59.6-22.4-55.9-42.9C18.1,39.9,31.3,6,31.3,6s0.3-0.7-0.5-0.7H0.8c0,0-0.8,0-0.8,0.8v79.5c0,0,0,0.8,0.7,1.2   c15.9,10.9,38.5,24.7,53.7,32.7c0,0,0.7,0.4,1.5,0.3c43-5.7,61.4-58.8,64.2-67.7C120,52.1,120.2,51.4,119.5,51.1"/>
+        </g>
+        <rect id="rect3945" y="1.6" class="st1" width="516.8" height="147.9"/>
+        <rect id="rect3947" y="1.6" class="st1" width="528.8" height="131.8"/>
+        <rect id="rect3949" x="522" class="st1" width="6.7" height="1.6"/>
+        <path id="rect3951" class="st1" d="M65.9,1.6h397c36.4,0,65.9,29.5,65.9,65.9v0c0,36.4-29.5,65.9-65.9,65.9h-397  C29.5,133.4,0,103.9,0,67.5v0C0,31.1,29.5,1.6,65.9,1.6z"/>
+        <path id="rect4758" class="st1" d="M243.4,132.8h18.2c8,0,14.5,6.5,14.5,14.5l0,0c0,8-6.5,14.5-14.5,14.5h-18.2  c-8,0-14.5-6.5-14.5-14.5l0,0C228.8,139.3,235.3,132.8,243.4,132.8z"/>
+        <g id="g5025" transform="translate(1.0378058,2.0904375)">
+        </g>
+      </svg>
+      <h1>Katholische<br />junge<br />Gemeinde<br /><b>Muggensturm</b></h1>
+    </div>
+    <div class="head-test">
+    </div>
+  </div>
+  <div class="content-wrapper">
+  <h1 class="test-title">Herzlich Willkommen</h1>
+    <div class="welcome-text">
+      <div>
+        <p>
+        Hallo und Willkommen auf unserer Homepage!<br/> 
+        Hier möchten wir euch einen Einblick in unsere KjG-Aktionen und Jugenarbeit
+        geben, die wir über das Jahr betreiben. <br/>
+        Ihr findet aktuelle Informationen und geschichtliches, aber schaut euch am besten einfach selbst um.<br />
+        <span>Eure KjG Muggensturm</span>
+        </p>
+      </div>
+      <div class="img-wrapper">
+        <div class="bg">
+          <img src="<?php echo get_template_directory_uri() ?>/assets/images/Lager2017Gesamtbild.jpg" alt="Ferienlager 2017">
+        </div>
+      </div>
+    </div>
+    <div class="section odd">
+      <h1>Ferienlager</h1>
+    </div>
+  </div>
+<div style="height: 1000px"></div>
+<?php
+get_footer();
+?>

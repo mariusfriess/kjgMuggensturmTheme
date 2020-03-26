@@ -1,114 +1,204 @@
 @import "vars";
 
-.front-page {
-  .head {
-    position: relative;
+.front-page-header {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7em 1em 11em;
+  z-index: -1;
 
-    .head-bg {
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      height: 440px;
-    }
-
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.32);
-    }
-
-    .title {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 80%;
-      transform: translate(-50%, calc(-50% - 16px));
-      color: white;
-      text-align: center;
-      font-size: 2rem;
-
-      @include mobile {
-        font-size: 1.6rem;
-        width: calc(100% - 2rem);
-      }
-    }
+  &.popupActive {
+    //padding: 6em 1em 8em;
   }
 
-  .welcome-box {
-    position: relative;
-    top: -32px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: calc(100% - 12rem);
-    max-width: 900px;
-    margin: 0 auto;
-    background: #ffffff;
-    padding: 2rem;
-    border-radius: 16px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+    z-index: 1;
+    color: white;
+    font-family: "Raleway", "Roboto", sans-serif;
+    font-weight: 500;
+  }
+
+  h1 {
+    font-size: 4.2em;
+
+    @include tablet {
+      font-size: 3.4em;
+    }
 
     @include mobile {
-      padding: 1rem;
-      width: calc(100% - 4rem);
+      font-size: 2.8em;
+    }
+  }
+
+  h2 {
+    font-size: 3.4em;
+
+    @include tablet {
+      font-size: 2.8em;
+      margin-top: 8px;
     }
 
-    h2 {
-      text-align: center;
-      font-size: 2.4rem;
-      margin: 1rem 0 3rem;
+    @include mobile {
+      font-size: 2.2em;
+      margin-top: 0;
+    }
+  }
+}
 
-      @include mobile {
-        font-size: 2.2rem;
-        margin: 1rem 0 2.5rem;
-      }
+.front-page-header-skew {
+  display: none;
+  transform: skewY(2deg);
+  transform-origin: 100%;
+  background: white;
+  height: 100px;
+  width: 100%;
+  //margin-bottom: -30px;
+
+  @include tablet {
+    transform: skewY(4deg);
+    height: 80px;
+  }
+
+  @include mobile {
+    transform: skewY(6deg);
+    height: 60px;
+  }
+}
+
+.front-page-content {
+  max-width: 1100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 5%;
+
+  @include mobile {
+    padding: 0 1.6rem;
+  }
+
+  .front-page-welcome {
+    position: relative;
+    top: -4rem;
+    margin-bottom: 10rem;
+
+    @include mobile {
+      margin-bottom: 6rem;
     }
 
-    img {
-      width: calc(100% - 4rem);
-      max-width: 600px;
-      height: auto;
+    .welcome-logo {
+      background: white;
+      max-width: calc(740px + 4rem);
       margin: 0 auto;
+      padding: 2rem 0;
+      border-radius: 16px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+      h1 {
+        text-align: center;
+        font-size: 2.4rem;
+        line-height: 58px;
+        font-weight: 400;
+        margin: 0;
+
+        @include tablet {
+          font-size: 2rem;
+        }
+
+        @include mobile {
+          font-size: 1.6rem;
+        }
+      }
+
+      span {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        display: inline-block;
+        height: 2px;
+        width: 80%;
+        background: rgba(0, 0, 0, 0.16);
+        margin: 2rem 0;
+        max-width: 640px;
+      }
+
+      .logo {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        height: auto;
+        width: calc(100% - 2rem);
+        max-width: 700px;
+      }
+    }
+
+    .welcome-text {
+      margin-top: 8rem;
+      padding: 32px;
       border-radius: 8px;
+      box-shadow: 0 15px 80px -5px rgba(0, 0, 0, 0.25);
 
-      @include mobile {
-        width: 100%;
+      @include tablet {
+        flex-direction: column;
       }
-    }
-
-    p {
-      text-align: center;
-      font-size: 1.1rem;
-      font-weight: 500;
-      margin: 2rem 2rem;
-      line-height: 140%;
 
       @include mobile {
-        font-weight: 600;
+        margin-top: 6rem;
+        flex-direction: column;
+        padding-top: 0;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        width: calc(60% - 32px);
+        border-radius: 8px;
+
+        @include tablet {
+          width: 80%;
+        }
+
+        @include mobile {
+          position: relative;
+          left: -32px;
+          width: calc(100% + 64px);
+          border-radius: 8px 8px 0 0;
+        }
+      }
+
+      p {
+        margin: 32px 32px 8px;
+        text-align: center;
+        line-height: 1.5em;
+
+        @include tablet {
+          margin: 32px 32px 8px;
+        }
+
+        @include mobile {
+          margin: 32px 0 0;
+        }
       }
     }
   }
 
-  section {
-    width: calc(100% - 8rem);
-    max-width: calc(1100px - 2rem);
-    margin: 8rem auto;
-
-    h3 {
-      text-align: center;
-      font-weight: 500;
-      font-size: 2.5em;
-      margin: 0 0 3rem;
-    }
-  }
-
-  section.article {
+  .front-page-section {
     display: flex;
     align-items: flex-start;
-    padding: 1rem;
+    padding: 16px;
+    margin-bottom: 8rem;
 
     @include desktop {
       :first-child {
@@ -168,10 +258,8 @@
 
       p {
         white-space: pre-wrap;
-        font-size: 1.1rem;
-        font-weight: 500;
-        line-height: 140%;
-        margin: 2rem 0;
+        line-height: 1.5em;
+        margin: 32px 0;
 
         @include tabletAndMobile {
           text-align: center;
@@ -192,54 +280,56 @@
           text-transform: uppercase;
           background-color: $blue;
           color: white;
-          font-weight: 700;
-          font-size: 1rem;
-          padding: 0.7rem 1.5rem;
-          margin: 0 16px 16px 0;
+          font-weight: 600;
+          padding: 8px 16px;
+          margin: 0 8px 16px;
           border-radius: 4px;
           white-space: nowrap;
+          font-size: 0.9em;
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
             0 1px 2px rgba(0, 0, 0, 0.24);
           transition: all 200ms linear;
 
           &:hover {
-            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
-              0 3px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+              0 6px 6px rgba(0, 0, 0, 0.23);
           }
         }
       }
     }
   }
 
-  section.news {
+  .posts-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 9rem;
+
+    .title {
+      text-align: center;
+      font-weight: 400;
+      font-size: 2.5em;
+      margin: 0 0 3rem;
+    }
 
     .show-more {
       text-decoration: none;
       text-transform: uppercase;
-      background-color: $blue;
+      background-color: #1394bf;
       color: white;
-      font-weight: 700;
-      font-size: 1rem;
-      padding: 0.7rem 1.5rem;
-      margin: 48px 0 0;
+      font-weight: 600;
+      padding: 16px 24px;
       border-radius: 4px;
-      white-space: nowrap;
+      font-size: 0.9em;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-      transition: all 200ms linear;
-
-      &:hover {
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-      }
+      margin: 48px 0 0;
 
       @include tabletAndMobile {
         margin: 0;
       }
     }
 
-    .posts-wrapper {
+    .posts-content-wrapper {
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
@@ -278,7 +368,7 @@
         h1 {
           font-size: 1.8em;
           margin: 24px 24px 4px;
-          font-weight: 600;
+          font-weight: 400;
         }
 
         .divider {
@@ -291,9 +381,7 @@
 
         p {
           margin: 12px 24px 24px;
-          line-height: 150%;
-          font-size: 1.05rem;
-          font-weight: 500;
+          line-height: 1.5em;
         }
 
         .post-footer {
@@ -307,13 +395,12 @@
           border-radius: 0 0 8px 8px;
 
           a {
-            font-size: 1rem;
+            font-size: 0.9em;
             text-decoration: none;
             text-transform: uppercase;
-            text-align: center;
             color: #1394bf;
             background-color: white;
-            font-weight: 700;
+            font-weight: 600;
             padding: 8px 16px;
             border-radius: 4px;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
@@ -321,17 +408,25 @@
           }
 
           span {
-            font-size: 1rem;
+            font-size: 0.8em;
             font-weight: 600;
-            margin: 0 0 0 8px;
-            text-align: right;
+            margin-right: 4px;
           }
         }
       }
     }
   }
 
-  section.gl {
+  .gruppenleiter-wrapper {
+    margin-bottom: 8rem;
+
+    .title {
+      text-align: center;
+      font-weight: 400;
+      font-size: 2.5em;
+      margin: 0 0 3rem;
+    }
+
     .content-wrapper {
       display: flex;
       flex-wrap: wrap;
@@ -362,7 +457,7 @@
 
         span {
           margin-top: 16px;
-          font-weight: 700;
+          font-weight: 600;
         }
       }
     }
