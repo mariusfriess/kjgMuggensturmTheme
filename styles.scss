@@ -17,6 +17,18 @@ body {
   font-family: "Quicksand", sans-serif;
   color: rgba(0, 0, 0, 0.87);
   background: white;
+
+  &.darkTheme {
+    background: $darkBg;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: $darkBg;
+    color: white;
+  }
 }
 
 a,
@@ -82,6 +94,10 @@ button.icon-btn {
     font-size: 26px;
     color: rgba(0, 0, 0, 0.87);
 
+    @include darkTheme {
+      color: white;
+    }
+
     @include mobile {
       font-size: 32px;
     }
@@ -117,6 +133,17 @@ button.icon-btn {
 
 /* Ferienlager Template */
 @import "scss/ferienlager-template";
+.custom-anmelde-btn {
+  display: inline-block;
+  border: none;
+  background: $blue !important;
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  margin: 2rem 0 0;
+  text-decoration: none;
+  border-radius: 6px;
+}
 
 /* Suchergebnisse */
 @import "scss/search";

@@ -1,5 +1,11 @@
 $blue: #1394bf;
-
+$darkBg: #121212;
+$darkOutline: rgba(255, 255, 255, 0.12);
+$darkE1: rgba(255, 255, 2555, 0.05);
+$darkE1hex: #1e1e1e;
+$darkE2: rgba(255, 255, 2555, 0.07);
+$darkE3: rgba(255, 255, 2555, 0.09);
+$darkHover: rgba(255, 255, 2555, 0.04);
 $cb: cubic-bezier(0.4, 0, 0.2, 1);
 
 @mixin mobile {
@@ -22,6 +28,16 @@ $cb: cubic-bezier(0.4, 0, 0.2, 1);
 
 @mixin tabletAndMobile {
   @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin darkTheme {
+  @media (prefers-color-scheme: dark) {
+    @content;
+  }
+
+  body.darkTheme & {
     @content;
   }
 }

@@ -36,7 +36,22 @@
   }*/-->
 
   <?php 
+  /*
     echo "<a href='" . get_theme_mod('popup_linkTo_setting') . "' class='front-page-popup'><p class='title'>Schwimmbadausflug & Gruppenstundenabsage</p></a>";
+  */?>
+
+  <?php 
+    echo "<a href='/ferienlager' class='front-page-popup'><p class='title'>Noch ";
+    $date = strtotime('31.08.2020');
+    $datediff = ceil(($date - time()) / (60 * 60 * 24));
+    echo $datediff;
+
+    if($datediff == 1) {
+      echo " Tag";
+    }else {
+      echo " Tage";
+    }
+    echo " bis zum Ferienlager!</p></a>";
   ?>
 
   <!-- DESKTOP HEADER -->

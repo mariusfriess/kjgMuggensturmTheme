@@ -72,19 +72,42 @@
         <div class="box">
           <h1>Ferienlager 2020</h1>
           <p>
-          Auch im nächsten Jahr begibt sich die KjG in den Sommerferien wieder auf den Weg ins Ferienlager. Vom <b>31. August bis zum 09. 
-          September 2020</b> erwarten euch 10 Tage voller Spaß und Unterhaltung. 
-          <br/><br/>Zum ersten Mal führt die Reise uns nächstes Jahr in das <b>Jugenddorf Teufelsfels</b> in Rheinland-Pfalz. Die Kinder
-          übernachten in einzigartigen Gruppenhütten und auch sonst hat der Platz einiges zu bieten. Mehr Informationen und Deatils finden 
-          Sie auf der Homepage des <a href="https://www.jugenddorf-teufelsfels.de/" target="_blank">Jugenddorf Teufelsfels</a>.
+          Liebe Eltern, liebe Kinder,<br/>
+          wie jedes Jahr steht auch 2020 wieder unser Ferienlager auf dem Programm. Aufgrund der aktuellen Corona-Situation stellt sich jedoch 
+          auch uns die Frage, ob das Ferienlager dieses Jahr wie gewohnt stattfinden kann. Das Ferienlager ist das größte Event im KjG-Jahr 
+          und stellt auch für die Betreuer und Kinder immer das Highlight des Jahres dar, weshalb wir den Kinder auch in diesem Sommer ein 
+          aufregendes Ferienlager bieten möchten. Jedoch ist im Moment noch nicht abzusehen, wie sich die aktuelle Lage in den nächsten Wochen 
+          verändern wird und deshalb ist es auch für uns schwer abzusehen ob das diesjährige Ferienlager wie gewohnt stattfinden kann oder ob
+          wir es absagen müssen. <br/><br/>
+          Zum aktuellen Zeitpunkt möchten wir unsere Planung wie bisher weiterführen, in der Hoffnung, dass sich die Entwicklungen stabilisieren
+          und die Durchführung des Ferienlagers möglich ist. Trotzdessen sind wir, die KjG Muggensturm, uns als Veranstalter natürlich auch unserer
+          Verantwortung bewusst und wir versichern Ihnen natürlich, dass wir das Ferienlager nur durchführen werden, wenn dies für alle Teilnehmer
+          zumutbar ist und es die Entwicklungen der Corona-Krise zulassen. Wir werden uns hier an den allgemeinen offiziellen Empfehlungen und 
+          Regeln orientieren und behalten uns vor das Ferienlager abzusagen, wenn eine risikofreie Durchführung nicht möglich sein wird. <br/><br/>
+          Um unsere Planung jedoch wie gewohnt fortsetzen zu können ist es wichtig zu wissen mit wie vielen Teilnehmern wir zu rechenen haben. Auf 
+          die normalerwiese bei der Erstanmeldung für das Ferienlager anfallende Anmeldegebühr werden wir dieses Jahr allerdings verzichten. 
+          Stattdessen können Sie Ihr Kind über das von uns zur Verfügung gestellte Online-Formular zunächst unverbindlich für das Ferienlager
+          2020 anmelden. Dies ermöglicht uns zum einen die genauere Planung des Ferienalgers und zum anderen erspart es uns aufwendige 
+          Rücküberweisungen, falls wir das Ferienlager absagen müssen. Die Überweisung des Gesamtbetrages und die detaillierte Anmeldung 
+          folgen erst dann, wenn abzusehen ist ob das Ferienlager stattfinden wird. <br/><br/>
+          Falls Sie weitere Fragen haben können Sie sich über die E-Mail kjg-muggensturm@gmx.de jederzeit an uns wenden. Wir werden Sie zum
+          einen hier auf unserer Homepage, aber auch über den Gemeindeanzeiger und unsere Facebook-Seite auf dem laufenden halten.
+          <br/><br/>
+          Wir wünschen Ihnen alles Gute in der aktuellen Zeit und wir sehen uns hoffentlich im Sommer zu 10 Tagen voller Spiel, Spaß und Freude.
+          <br/>Ihre KjG-Muggensturm
           </p>
+          <a href="https://kjg-muggensturm.web.app/" target="_blank" class="custom-anmelde-btn">Hier geht's zum Anmeldeformular</a>
         </div>
         <div class="box">
-          <h1>Flyer und Anmeldung</h1>
+          <h1>Infos zum Zeltplatz</h1>
           <p>
-            Hier stehen Ihnen unser Flyer zum Ferienlager und die Erstanmeldung direkt als PDF zur Verfügung.
-            <br/><br/><a href="http://www.kjgmuggensturm.de/wp-content/uploads/KJG-Flyer-2020.pdf" target="_blank">Flyer Ferienlager 2020</a>
-            <br/><br/><a href="http://www.kjgmuggensturm.de/wp-content/uploads/Erstanmeldung-Lager-2020-Einzeln.pdf" target="_blank">Erstanmeldung Ferienlager 2020</a>
+            Das diesjährige Ferienlager findest vom <b>31. August bis zum 09. September 2020</b> statt uns es erwarten euch 10 Tage voller Spaß 
+            und Unterhaltung. 
+            <br/><br/>Zum ersten Mal führt die Reise uns dieses Jahr in das <b>Jugenddorf Teufelsfels</b> in Rheinland-Pfalz. Die Kinder
+            übernachten in einzigartigen Gruppenhütten und auch sonst hat der Platz einiges zu bieten. Mehr Informationen und Deatils finden 
+            Sie auf der Homepage des <a href="https://www.jugenddorf-teufelsfels.de/" target="_blank">Jugenddorf Teufelsfels</a>.
+            <br/><br/>Hier finden Sie außerdem nochmal den Flyer für das Ferienlager mit allen weiteren Informationen.
+            <br/><a href="http://www.kjgmuggensturm.de/wp-content/uploads/KJG-Flyer-2020.pdf" target="_blank">Flyer Ferienlager 2020</a>
           </p>
         </div>
       </div>
@@ -94,7 +117,7 @@
   <footer>
     <div class="footer-bottom">
       <img class="logo" src="<?php echo get_template_directory_uri() ?>/assets/images/kjg_Muggensturm.svg" alt="kjg logo"/>
-      <span class="copyright">&copy; 2019 KJG Muggensturm</span>
+      <span class="copyright">&copy; 2020 KJG Muggensturm</span>
     </div>
   </footer>
 <?php wp_footer(); ?>

@@ -32,6 +32,10 @@
     max-width: 500px;
     margin: 0 auto 3rem;
 
+    @include darkTheme {
+      background: $darkE1hex;
+    }
+
     @include tablet {
       min-width: 300px;
     }

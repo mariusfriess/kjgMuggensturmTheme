@@ -21,6 +21,19 @@
   color: rgba(0, 0, 0, 0.92);
   overflow: auto;
 
+  @include darkTheme {
+    color: white;
+
+    .tablepress {
+      color: black;
+      background: white;
+    }
+
+    .gruppenLeiterWrapper {
+      color: white !important;
+    }
+  }
+
   @include mobile {
     padding: 3rem 24px 6rem;
     width: calc(100% - 48px);

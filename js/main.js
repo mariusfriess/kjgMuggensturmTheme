@@ -1,6 +1,8 @@
 (function($) {
   let isTabletOrMobile = false;
 
+  $("noscript").remove();
+
   jQuery(document).ready(() => {
     if (window.innerWidth < 1025) isTabletOrMobile = true;
     if (window.scrollY > 164) {

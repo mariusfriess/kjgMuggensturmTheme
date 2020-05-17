@@ -64,6 +64,10 @@
         padding: 1rem;
         margin: 0 1rem 1rem 0;
 
+        @include darkTheme {
+          background: $darkE1hex;
+        }
+
         h3 {
           margin: 0 0 8px;
         }
@@ -99,6 +103,10 @@
         width: calc(100% - 16px);
         max-width: 500px;
         margin: 0 0 3rem;
+
+        @include darkTheme {
+          background: $darkE1hex;
+        }
 
         @include tablet {
           min-width: 200px;
