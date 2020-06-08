@@ -70,17 +70,17 @@ button.icon-btn {
   cursor: pointer;
   background: transparent;
   -webkit-tap-highlight-color: transparent; }
-  button.icon-btn span {
-    font-size: 26px;
+  button.icon-btn svg {
     color: rgba(0, 0, 0, 0.87); }
     @media (prefers-color-scheme: dark) {
-      button.icon-btn span {
+      button.icon-btn svg {
         color: white; } }
-    body.darkTheme button.icon-btn span {
+    body.darkTheme button.icon-btn svg {
       color: white; }
     @media (max-width: 519px) {
-      button.icon-btn span {
-        font-size: 32px; } }
+      button.icon-btn svg {
+        height: 30px !important;
+        width: 30px !important; } }
 
 /* Normalize.css Version 8.0.1 */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

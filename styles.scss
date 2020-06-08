@@ -90,8 +90,7 @@ button.icon-btn {
   background: transparent;
   -webkit-tap-highlight-color: transparent;
 
-  span {
-    font-size: 26px;
+  svg {
     color: rgba(0, 0, 0, 0.87);
 
     @include darkTheme {
@@ -99,7 +98,8 @@ button.icon-btn {
     }
 
     @include mobile {
-      font-size: 32px;
+      height: 30px !important;
+      width: 30px !important;
     }
   }
 }
