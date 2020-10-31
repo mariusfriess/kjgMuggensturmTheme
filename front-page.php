@@ -8,11 +8,19 @@ get_header();
     <div class="head-bg" style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/images/ZeltplatzHeader.jpg)"></div>
     <div class="overlay"></div>
     <div class="title">
-      <h1>Katholische Junge Gemeinde <br />Muggensturm</h1>
+      <h1>Katholische junge Gemeinde <br />Muggensturm</h1>
     </div>
   </div>
 
-  <div class="welcome-box">
+  <div class="welcome">
+    <h2>Herzlich <span>Willkommen</span></h2>
+    <p>
+    <span class="indicator"></span>
+    Auf unserer Homepage möchten wir euch einen Einblick in unsere KjG-Aktionen und Jugendarbeit geben, die wir in unserer Pfarrei „Maria Königin der Engel“ über das Jahr betreiben. Ihr findet hier immer aktuelle Informationen und auch geschichtliches über die Katholische junge Gemeinde, aber am besten schaut Ihr euch einfach selbst um.
+    </p>
+  </div>
+
+  <div style="display: none !important" class="welcome-box">
     <h2>Herzlich Willkommen</h2>
     <img src="<?php echo get_template_directory_uri() ?>/assets/images/Lager2017Gesamtbild.jpg" alt="lager 2017">
     <p>
@@ -24,38 +32,41 @@ get_header();
   <section class="article">
     <img src="<?php echo wp_get_attachment_url(get_theme_mod('firstSectionPicSetting'))?>" alt="section picture">
     <div class="section-content">
-      <h1><?php echo get_theme_mod('firstSectionTitleSetting')?></h1>
+      <h3><?php echo get_theme_mod('firstSectionTitleSetting')?></h3>
       <p><?php echo get_theme_mod('firstSectionTextSetting')?></p>
       <div class="links">
         <?php 
           if(get_theme_mod('firstSectionBtn1Setting') != "")  {
-            echo "<a href='http://" . get_theme_mod('firstSectionBtn1LinkSetting') . "' target='_blank'>" . get_theme_mod('firstSectionBtn1Setting') . "</a>";
+            echo "<a class='front-page-button' href='http://" . get_theme_mod('firstSectionBtn1LinkSetting') . "' target='_blank'>" . get_theme_mod('firstSectionBtn1Setting') . "<svg style='max-width:20px;height:20px' viewBox='0 0 24 24'><path fill='currentColor' d='M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z' /></svg></a>";
           }
           if(get_theme_mod('firstSectionBtn2Setting') != "")  {
-            echo "<a href='http://" . get_theme_mod('firstSectionBtn2LinkSetting') . "' target='_blank'>" . get_theme_mod('firstSectionBtn2Setting') . "</a>";
+            echo "<a class='front-page-button' href='http://" . get_theme_mod('firstSectionBtn2LinkSetting') . "' target='_blank'>" . get_theme_mod('firstSectionBtn2Setting') . "<svg style='max-width:20px;height:20px' viewBox='0 0 24 24'><path fill='currentColor' d='M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z' /></svg></a>";
           }
           if(get_theme_mod('firstSectionBtn3Setting') != "")  {
-            echo "<a href='http://" . get_theme_mod('firstSectionBtn3LinkSetting') . "' target='_blank'>" . get_theme_mod('firstSectionBtn3Setting') . "</a>";
+            echo "<a class='front-page-button' href='http://" . get_theme_mod('firstSectionBtn3LinkSetting') . "' target='_blank'>" . get_theme_mod('firstSectionBtn3Setting') . "<svg style='max-width:20px;height:20px' viewBox='0 0 24 24'><path fill='currentColor' d='M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z' /></svg></a>";
           }
         ?>
       </div>
+    </div>
+    <div class="abgesagt">
+      abgesagt
     </div>
   </section>
 
   <section class="article">
     <div class="section-content">
-      <h1><?php echo get_theme_mod('secondSectionTitleSetting')?></h1>
+      <h3><?php echo get_theme_mod('secondSectionTitleSetting')?></h3>
       <p><?php echo get_theme_mod('secondSectionTextSetting')?></p>
       <div class="links">
         <?php 
           if(get_theme_mod('secondSectionBtn1Setting') != "")  {
-            echo "<a href='http://" . get_theme_mod('secondSectionBtn1LinkSetting') . "' target='_blank'>" . get_theme_mod('secondSectionBtn1Setting') . "</a>";
+            echo "<a class='front-page-button' href='http://" . get_theme_mod('secondSectionBtn1LinkSetting') . "' target='_blank'>" . get_theme_mod('secondSectionBtn1Setting') . "<svg style='max-width:20px;height:20px' viewBox='0 0 24 24'><path fill='currentColor' d='M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z' /></svg></a>";
           }
           if(get_theme_mod('secondSectionBtn2Setting') != "")  {
-            echo "<a href='http://" . get_theme_mod('secondSectionBtn2LinkSetting') . "' target='_blank'>" . get_theme_mod('secondSectionBtn2Setting') . "</a>";
+            echo "<a class='front-page-button' href='http://" . get_theme_mod('secondSectionBtn2LinkSetting') . "' target='_blank'>" . get_theme_mod('secondSectionBtn2Setting') . "<svg style='max-width:20px;height:20px' viewBox='0 0 24 24'><path fill='currentColor' d='M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z' /></svg></a>";
           }
           if(get_theme_mod('secondSectionBtn3Setting') != "")  {
-            echo "<a href='http://" . get_theme_mod('secondSectionBtn3LinkSetting') . "' target='_blank'>" . get_theme_mod('secondSectionBtn3Setting') . "</a>";
+            echo "<a class='front-page-button' href='http://" . get_theme_mod('secondSectionBtn3LinkSetting') . "' target='_blank'>" . get_theme_mod('secondSectionBtn3Setting') . "<svg style='max-width:20px;height:20px' viewBox='0 0 24 24'><path fill='currentColor' d='M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z' /></svg></a>";
           }
         ?>
       </div>
@@ -64,7 +75,7 @@ get_header();
   </section>
 
   <section class="news">
-    <h3>KjG News</h3>
+    <h3>Aktuelle <span>Nachrichten</span></h3>
     <div class="posts-wrapper">
       <?php 
         $args = array(
@@ -78,25 +89,30 @@ get_header();
 
         while ($the_query -> have_posts()) : $the_query -> the_post();
       ?>
-      <div class="post">
-          <h1><?php the_title(); ?></h1>
-          <span class="divider"></span>
-          <?php the_excerpt(); ?>
-          <div class="post-footer">
-          <a href="<?php the_permalink() ?>">Weiter lesen</a>
-            <span><?php echo get_the_date(); ?></span>
-          </div>
-      </div>
+      <a class="post" href="<?php the_permalink() ?>">
+        <span class="date"><?php echo get_the_date('j. M, Y'); ?></span>
+        <h1><?php the_title(); ?></h1>
+        <?php the_excerpt(); ?>
+        <span class="readMore" href="<?php the_permalink() ?>">Weiter lesen 
+          <svg style="width:20px;height:20px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
+          </svg>
+        </span>
+      </a>
       <?php 
         endwhile;
         wp_reset_postdata();
       ?>
     </div>
-    <a class="show-more" href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">Weitere KjG News</a>
+    <a class="show-more front-page-button" href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">Weitere KjG News
+      <svg style="max-width:20px;height:20px" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
+      </svg>
+    </a>
   </section>
 
   <section class="gl">
-    <h3 class="title">KjG Gruppenleiter</h3>
+    <h3 class="title">Unsere <span>Gruppenleiter</span></h3>
     <div class="content-wrapper">
       <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/HannahSoelter.jpg" alt="gruppenleiter portrait"><span>Hannah</span></div>
       <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/gruppenleiter/DavidSpaeth.jpg" alt="gruppenleiter portrait"><span>David</span></div>

@@ -5,52 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
   <meta name="google-site-verification" content="Y-N-3pc6VnbkJGINcb7sDXrh4PCcDv6NH0cddAcU7Wc" />
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
   <?php wp_body_open(); ?>
 
-  <!-- OLD POPUP CODE
-  /*
-  if(get_theme_mod('popup_enable_setting') == 1){
-
-    if(get_theme_mod('popup_type_setting') == "text") {
-      echo "<a href='" . get_theme_mod('popup_linkTo_setting') . "' class='front-page-popup'><span class='title'>" . get_theme_mod('popup_dateTitle_setting') . "</span><span class='date'>" . get_theme_mod('popup_text_setting') . "</span></a>";
-    }
-
-    else {
-      echo "<a href='" . get_theme_mod('popup_linkTo_setting') . "' class='front-page-popup'><span class='title'>" . get_theme_mod('popup_dateTitle_setting') . "</span><span class='date'>Nur noch ";
-      $date = strtotime(get_theme_mod('popup_date_setting'));
-      $datediff = ceil(($date - time()) / (60 * 60 * 24));
-      echo $datediff;
-
-      if($datediff == 1) {
-        echo " Tag";
-      }else {
-        echo " Tage";
-      }
-      echo "</span></a>";
-    }
-  }*/-->
-
+  <!-- Info Bar <<dynamically inserted>> -->
   <?php 
-  /*
-    echo "<a href='" . get_theme_mod('popup_linkTo_setting') . "' class='front-page-popup'><p class='title'>Schwimmbadausflug & Gruppenstundenabsage</p></a>";
-  */?>
-
-  <?php 
-    echo "<a href='/ferienlager' class='front-page-popup'><p class='title'>Noch ";
-    $date = strtotime('31.08.2020');
-    $datediff = ceil(($date - time()) / (60 * 60 * 24));
-    echo $datediff;
-
-    if($datediff == 1) {
-      echo " Tag";
-    }else {
-      echo " Tage";
-    }
-    echo " bis zum Ferienlager!</p></a>";
+    $infoBar = get_option('kjg_infoBar');
+    if($infoBar['show'] == 'true') {
+      echo "<a href=" . $infoBar['link'] . " class='front-page-popup'><p class='title'>" . $infoBar['titleFinal'] . "</p></a>";
+    };
   ?>
 
   <!-- DESKTOP HEADER -->

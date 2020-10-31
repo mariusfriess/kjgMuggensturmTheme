@@ -214,7 +214,7 @@
   <footer>
     <div class="footer-bottom">
       <img class="logo" src="<?php echo get_template_directory_uri() ?>/assets/images/kjg_Muggensturm.svg" alt="kjg logo"/>
-      <span class="copyright">&copy; 2019 KjG Muggensturm</span>
+      <span class="copyright">&copy; <?php echo date("Y") ?> KjG Muggensturm</span>
     </div>
   </footer>
 <?php wp_footer(); ?>

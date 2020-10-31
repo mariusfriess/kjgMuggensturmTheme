@@ -21,7 +21,11 @@ get_header();
     ?>
       <p>There are no posts.
     <?php
-    }?>
+    }
+    if ( comments_open() || get_comments_number() ) :
+      comments_template();
+    endif;
+    ?>
     </main>
 <?php
 get_footer();

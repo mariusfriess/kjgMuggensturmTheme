@@ -34,7 +34,7 @@ header.desktop-header {
   top: -132px;
   background: white;
   transition: box-shadow 0.2s $cb, background 0s linear;
-  z-index: 1;
+  z-index: 10;
   //margin: 0 0 0.5rem;
 
   @include darkTheme {

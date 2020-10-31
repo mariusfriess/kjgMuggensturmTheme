@@ -13,6 +13,9 @@
   <div class="ferienlager-wrapper">
     <div class="header-wrapper">
       <div class="header"> 
+        <div class="abgesagt">
+          abgesagt
+        </div>
         <div class="site-logo">
           <a href="http://www.kjgmuggensturm.de">
             <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" width="513.76202" height="124.89771" viewBox="0 0 513.76202 124.89769" xml:space="preserve" id="svg3935" sodipodi:docname="kjg_Muggensturm.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" style="&#10;    color: white !important;&#10;"><metadata id="metadata3941"><rdf:RDF><cc:Work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/><dc:title/></cc:Work></rdf:RDF></metadata><defs id="defs3939"/><sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1530" inkscape:window-height="836" id="namedview3937" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="-15" fit-margin-bottom="-37" inkscape:zoom="1.9271429" inkscape:cx="330.28169" inkscape:cy="12.807241" inkscape:window-x="70" inkscape:window-y="27" inkscape:window-maximized="1" inkscape:current-layer="g5025"/><g id="g3933" style="fill: #00adbb;" transform="translate(1.0378058,2.0904374)"><path d="m 52.038,48.207 c 6.35,0 11.529,5.178 11.529,11.527 0,6.351 -5.18,11.527 -11.529,11.527 -6.349,0 -11.528,-5.177 -11.528,-11.527 0,-6.349 5.179,-11.527 11.528,-11.527 m 15.735,7.952 C 67.575,65.464 64.461,82.791 57.42,80.804 49.505,78.569 37.129,72.219 32.828,59.457 c 0,0 -0.254,-0.755 0.107,-1.464 7.093,-13.919 22.315,-18.14 28.925,-17.396 4.05,0.457 6.097,6.976 5.913,15.562 m 51.69,-5.073 -41.098,-16.887 c 0,0 -0.736,-0.301 -0.696,-1.096 l 0.813,-15.978 c 0,0 0.041,-0.792 0.836,-0.792 h 25.674 c 0,0 0.795,0 0.072,-0.332 L 72.285,1.037 c 0,0 -0.724,-0.332 -1.373,0.127 L 50.119,15.873 c 0,0 -0.649,0.461 0.146,0.461 h 14.383 c 0,0 0.794,0 0.87,0.791 l 1.103,11.53 c 0,0 0.075,0.792 -0.657,0.484 L 45.733,20.688 c 0,0 -0.734,-0.306 -1.092,0.405 L 20.381,69.31 c 0,0 -0.357,0.712 0.34,1.098 l 52.57,29.04 c 0,0 0.696,0.386 0.74,-0.407 0,0 -0.044,0.793 2.891,-52.425 0,0 0.045,-0.792 0.766,-0.456 10.502,4.9 13.08,15.721 13.482,22.32 0.627,10.283 -5.59,33.391 -19.972,38.567 0,0 -0.749,0.267 -1.537,0.161 C 38.558,103.062 10.092,84.793 13.734,64.309 18.082,39.859 31.252,6.019 31.252,6.019 c 0,0 0.289,-0.741 -0.507,-0.741 H 0.796 c 0,0 -0.796,0 -0.796,0.795 v 79.535 c 0,0 0,0.797 0.655,1.245 15.909,10.91 38.546,24.689 53.664,32.734 0,0 0.702,0.374 1.491,0.271 43.02,-5.666 61.405,-58.771 64.153,-67.712 0.001,10e-4 0.235,-0.757 -0.5,-1.06" id="path3847" inkscape:connector-curvature="0"/><path d="m 287.888,96.09 c -23.664,0 -36.51,-16.452 -36.51,-40.907 0,-22.312 11.606,-39.441 36.173,-39.441 7.438,0 15.212,1.804 21.974,5.296 l -7.437,14.764 c -3.493,-2.254 -8.903,-3.719 -13.974,-3.719 -14.087,0 -17.917,9.579 -17.917,23.101 0,21.298 8.112,25.356 18.142,25.356 1.916,0 3.719,0 5.635,-0.339 0,-1.015 0,-6.311 0.226,-17.355 -6.536,0.112 -7.776,0.112 -8.903,0.112 0,-0.335 -0.225,-14.199 -0.225,-14.422 h 26.031 v 42.71 c -5.635,3.603 -15.327,4.844 -23.215,4.844 M 226.306,120 c 12.057,-7.55 16.678,-13.187 16.678,-28.174 V 44.793 l -1.127,-1.126 -17.692,0.112 c 0.114,2.254 0.338,6.691 0.338,9.845 v 40.229 c 0,9.017 -1.127,10.707 -6.874,14.765 v 1.576 z M 155,17.695 h 18.367 c 0,1.238 0,17.128 -0.338,34.256 h 0.564 c 1.353,-3.156 3.268,-6.535 4.732,-8.562 l 18.368,-25.693 h 21.186 l -25.693,33.579 c 7.101,12.51 17.242,29.188 25.693,43.726 h -21.186 c -3.943,-8.115 -12.509,-22.764 -17.129,-31.893 -2.14,2.592 -4.395,4.96 -6.536,7.55 0.227,12.51 0.338,23.329 0.338,24.343 H 155 Z m 78.694,19.78 c 5.501,0 9.963,-4.46 9.963,-9.963 0,-5.502 -4.462,-9.961 -9.963,-9.961 -5.503,0 -9.964,4.459 -9.964,9.961 0,5.503 4.461,9.963 9.964,9.963" id="path3849" inkscape:connector-curvature="0"/><g transform="translate(332,12)" id="g3875">
@@ -72,43 +75,17 @@
         <div class="box">
           <h1>Ferienlager 2020</h1>
           <p>
-          Liebe Eltern, liebe Kinder,<br/>
-          wie jedes Jahr steht auch 2020 wieder unser Ferienlager auf dem Programm. Aufgrund der aktuellen Corona-Situation stellt sich jedoch 
-          auch uns die Frage, ob das Ferienlager dieses Jahr wie gewohnt stattfinden kann. Das Ferienlager ist das größte Event im KjG-Jahr 
-          und stellt auch für die Betreuer und Kinder immer das Highlight des Jahres dar, weshalb wir den Kinder auch in diesem Sommer ein 
-          aufregendes Ferienlager bieten möchten. Jedoch ist im Moment noch nicht abzusehen, wie sich die aktuelle Lage in den nächsten Wochen 
-          verändern wird und deshalb ist es auch für uns schwer abzusehen ob das diesjährige Ferienlager wie gewohnt stattfinden kann oder ob
-          wir es absagen müssen. <br/><br/>
-          Zum aktuellen Zeitpunkt möchten wir unsere Planung wie bisher weiterführen, in der Hoffnung, dass sich die Entwicklungen stabilisieren
-          und die Durchführung des Ferienlagers möglich ist. Trotzdessen sind wir, die KjG Muggensturm, uns als Veranstalter natürlich auch unserer
-          Verantwortung bewusst und wir versichern Ihnen natürlich, dass wir das Ferienlager nur durchführen werden, wenn dies für alle Teilnehmer
-          zumutbar ist und es die Entwicklungen der Corona-Krise zulassen. Wir werden uns hier an den allgemeinen offiziellen Empfehlungen und 
-          Regeln orientieren und behalten uns vor das Ferienlager abzusagen, wenn eine risikofreie Durchführung nicht möglich sein wird. <br/><br/>
-          Um unsere Planung jedoch wie gewohnt fortsetzen zu können ist es wichtig zu wissen mit wie vielen Teilnehmern wir zu rechenen haben. Auf 
-          die normalerwiese bei der Erstanmeldung für das Ferienlager anfallende Anmeldegebühr werden wir dieses Jahr allerdings verzichten. 
-          Stattdessen können Sie Ihr Kind über das von uns zur Verfügung gestellte Online-Formular zunächst unverbindlich für das Ferienlager
-          2020 anmelden. Dies ermöglicht uns zum einen die genauere Planung des Ferienalgers und zum anderen erspart es uns aufwendige 
-          Rücküberweisungen, falls wir das Ferienlager absagen müssen. Die Überweisung des Gesamtbetrages und die detaillierte Anmeldung 
-          folgen erst dann, wenn abzusehen ist ob das Ferienlager stattfinden wird. <br/><br/>
-          Falls Sie weitere Fragen haben können Sie sich über die E-Mail kjg-muggensturm@gmx.de jederzeit an uns wenden. Wir werden Sie zum
-          einen hier auf unserer Homepage, aber auch über den Gemeindeanzeiger und unsere Facebook-Seite auf dem laufenden halten.
-          <br/><br/>
-          Wir wünschen Ihnen alles Gute in der aktuellen Zeit und wir sehen uns hoffentlich im Sommer zu 10 Tagen voller Spiel, Spaß und Freude.
-          <br/>Ihre KjG-Muggensturm
-          </p>
-          <a href="https://kjg-muggensturm.web.app/" target="_blank" class="custom-anmelde-btn">Hier geht's zum Anmeldeformular</a>
-        </div>
-        <div class="box">
-          <h1>Infos zum Zeltplatz</h1>
-          <p>
-            Das diesjährige Ferienlager findest vom <b>31. August bis zum 09. September 2020</b> statt uns es erwarten euch 10 Tage voller Spaß 
-            und Unterhaltung. 
-            <br/><br/>Zum ersten Mal führt die Reise uns dieses Jahr in das <b>Jugenddorf Teufelsfels</b> in Rheinland-Pfalz. Die Kinder
-            übernachten in einzigartigen Gruppenhütten und auch sonst hat der Platz einiges zu bieten. Mehr Informationen und Deatils finden 
-            Sie auf der Homepage des <a href="https://www.jugenddorf-teufelsfels.de/" target="_blank">Jugenddorf Teufelsfels</a>.
-            <br/><br/>Hier finden Sie außerdem nochmal den Flyer für das Ferienlager mit allen weiteren Informationen.
-            <br/><a href="http://www.kjgmuggensturm.de/wp-content/uploads/KJG-Flyer-2020.pdf" target="_blank">Flyer Ferienlager 2020</a>
-          </p>
+          Liebe KjG’ler, liebe Eltern,<br><br>
+          nicht nur das alltägliche Leben jedes einzelnen, sondern auch unsere Jugendarbeit ist  weiter für ungewisse Zeit eingeschränkt. Viele unserer Aktionen konnten in den letzten Wochen und Monaten nicht wie gewohnt stattfinden.<br>
+          Unsere größte Aktion im Jahr - unser Ferienlager - lebt von Spiel, Spaß und Teamwork auf engstem Raum, sowie viel Kontakt innerhalb der Teilnehmenden. Oberste Priorität bei der Durchführung ist es immer durch vernünftiges und verantwortungsvolles Handeln das Ferienlager für die Kinder so sicher wie möglich zu gestalten.<br><br>
+          Vorerst möchten wir uns für die lange Ungewissheit bezüglich des Ferienlagers entschuldigen. Aufgrund von Covid-19 ist es uns dieses Jahr leider nicht möglich das Ferienlager durchzuführen. Der Hauptgrund hierfür besteht darin, dass wir das Einhalten der Abstands- und Hygieneregeln nicht durchgängig gewährleisten können.<br>
+          Wir bedauern diesen Schritt zutiefst, mit Blick auf die aktuelle Corona-Situation blieb  uns jedoch keine andere Möglichkeit.<br>
+          Sollten Sie bereits die Anmeldegebühr bezahlt haben, wird diese natürlich zurück erstattet und von den Gruppenleitern an Sie zurückgegeben. Alle vorläufigen Anmeldungen sind hiermit ungültig.<br><br>
+          Seit kurzer Zeit suchen wir nach möglichen Alternativen, um sowohl den Gruppenkindern, aber vor allem den ältesten Gruppen ein kleines Ersatz-Programm zu gestalten und möglich zu machen.<br>
+          Wie es mit den restlichen KjG-Aktionen, aber auch den Gruppenstunden weitergeht, müssen wir abwarten, da weiterhin das Gebot des Mindestabstandes und der Maskenpflicht besteht.  Unter diesen Umständen können wir noch keine Art von Aktion durchführen.<br><br>
+          Vielen Dank für Ihr Verständnis und bleibt gesund!<br><br>
+          Euer KjG-Team
+        </p>
         </div>
       </div>
     </div>
@@ -117,7 +94,7 @@
   <footer>
     <div class="footer-bottom">
       <img class="logo" src="<?php echo get_template_directory_uri() ?>/assets/images/kjg_Muggensturm.svg" alt="kjg logo"/>
-      <span class="copyright">&copy; 2020 KJG Muggensturm</span>
+      <span class="copyright">&copy; <?php echo date("Y") ?> KJG Muggensturm</span>
     </div>
   </footer>
 <?php wp_footer(); ?>

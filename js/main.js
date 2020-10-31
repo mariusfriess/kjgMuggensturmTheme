@@ -10,17 +10,34 @@
     }
 
     $(document).scroll(e => {
-      /*if (window.scrollY > 36) {
-        $("header").addClass("pageScrolled");
-      } else if (window.scrollY < 5) {
-        $("header").removeClass("pageScrolled");
-      }*/
       if (window.scrollY > 164) {
         $("header").addClass("show-logo");
       } else {
         $("header").removeClass("show-logo");
       }
     });
+
+    if (
+      window.location.pathname == "/wordpress/" ||
+      window.location.pathname == "/" ||
+      window.location.pathname == ""
+    ) {
+      $(document).scroll(e => {
+        if (isTabletOrMobile) {
+          let z = [];
+          $(".post").each(function() {
+            let a = $(this).offset().top;
+            let b = window.scrollY + $(window).innerHeight() / 2 - 100;
+            z.push(Math.abs(a - b));
+          });
+          let key = z.indexOf(Math.min.apply(null, z));
+          $(".post").removeClass("activate");
+          $(".post")
+            .eq(key)
+            .addClass("activate");
+        }
+      });
+    }
 
     $("header").click(e => {
       if ($(e.target).hasClass("site-header"))
@@ -52,12 +69,13 @@
     });
 
     $("#mobile-nav-open-btn").click(() => {
-      console.log("test");
       $("#mobile-nav").addClass("opened");
+      $(document.body).addClass("navOpened");
     });
 
     $("#mobile-nav-close-btn").click(() => {
       $("#mobile-nav").removeClass("opened");
+      $(document.body).removeClass("navOpened");
     });
 
     $("#desktop-search-box-btn").click(() => {

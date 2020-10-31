@@ -16,7 +16,7 @@
       <a href="https://www.kjg-rheinau.de/" target="_blank">KjG Rastatt/Rheinau</a>
       <a href="http://www.kjgsteinmauern.epagede.com/" target="_blank">KjG Steinmauern</a>
       <a href="https://www.kjgbietigheim.de/" target="_blank">KjG Bietigheim</a>
-      <a href="http://www.kjg-gaggenau.de/" target="_blank">KjG Gaggenau</a>
+      <a href="https://kjg.kath-gaggenau.de/" target="_blank">KjG Gaggenau</a>
     </div>
     <div class="link-box">
       <span>Pfarrgemeinde & Förderverein</span>
